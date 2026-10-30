@@ -1,0 +1,1215 @@
+__type: "tm_geometry"
+__uuid: "0281c174-c2ef-9f3a-98d4-0cd5b63e95cb"
+name: "Mesh"
+input_geometry: {
+	__uuid: "e4fb7de3-b6dc-3547-6fdf-797863d2d400"
+	buffers: [
+		{
+			__uuid: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			buffer: "30f701ef-4da0-8731-64a6-26431458ae2b"
+		}
+		{
+			__uuid: "fe861c11-26b6-8aef-7139-b5110851ea22"
+			index: 1
+			buffer: "b6db87d7-aa77-0b48-ed90-bf1696c9033c"
+		}
+		{
+			__uuid: "c9951f3d-1e31-f825-17a1-37ab6766399d"
+			index: 2
+			buffer: "5dcfc85c-3214-1bfd-2cbb-aab60bc9c2e2"
+		}
+	]
+	channels: [
+		{
+			__uuid: "d46dd70a-068f-4e67-1d5d-99a25403eaba"
+			semantic: 1
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			stride: 12
+			format: 16910368
+			primvar_name: "points"
+		}
+		{
+			__uuid: "40b2c45a-ae9e-e195-3255-9410c4f66c5e"
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 44496
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left"
+		}
+		{
+			__uuid: "c120c44c-7bbd-8e05-c288-93220d2e06ef"
+			set: 1
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 59328
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_Hand"
+		}
+		{
+			__uuid: "0edabfca-2bf3-47f9-ad44-1a7eed7b2d02"
+			set: 2
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 74160
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandIndex1"
+		}
+		{
+			__uuid: "64e55dee-2801-6181-a163-ca2caca5bf58"
+			set: 3
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 88992
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandIndex2"
+		}
+		{
+			__uuid: "afdf6446-4626-513d-99ed-58c2d602ef87"
+			set: 4
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 103824
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandIndex3"
+		}
+		{
+			__uuid: "5b0ea094-df43-a418-674f-b5c30f299378"
+			set: 5
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 118656
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandMiddle1"
+		}
+		{
+			__uuid: "d34d3f90-b459-86aa-4eb8-eeed6049bea4"
+			set: 6
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 133488
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandMiddle2"
+		}
+		{
+			__uuid: "8444a4ac-b7b7-8e73-8928-77a18b4ca0b9"
+			set: 7
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 148320
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandMiddle3"
+		}
+		{
+			__uuid: "f2ea0282-8a3e-06aa-8bcc-5440a3f250b9"
+			set: 8
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 163152
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandPinky1"
+		}
+		{
+			__uuid: "f92439c7-b0e0-8662-f4b8-c1b869acb449"
+			set: 9
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 177984
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandPinky2"
+		}
+		{
+			__uuid: "606e6691-df49-02fc-99de-87aa1a255244"
+			set: 10
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 192816
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandPinky3"
+		}
+		{
+			__uuid: "79ff48e8-7e02-009a-db18-2164db0f2b27"
+			set: 11
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 207648
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandRing1"
+		}
+		{
+			__uuid: "45e9e20e-cb05-f66d-4261-36cb081c85a8"
+			set: 12
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 222480
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandRing2"
+		}
+		{
+			__uuid: "9e3ff432-a251-ef87-b624-b14832da8107"
+			set: 13
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 237312
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandRing3"
+		}
+		{
+			__uuid: "69ee0e81-31f7-2b3e-c55b-08a8c4cb4c1a"
+			set: 14
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 252144
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandThumb1"
+		}
+		{
+			__uuid: "58473ed3-0e0b-bbbf-8f36-979b23e690c5"
+			set: 15
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 266976
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandThumb2"
+		}
+		{
+			__uuid: "317735a6-ee9a-8c5c-103b-406f09056dc5"
+			set: 16
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 281808
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandThumb3"
+		}
+		{
+			__uuid: "1a3556f9-bce5-09de-00b6-a54c00a280b4"
+			set: 17
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 296640
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right"
+		}
+		{
+			__uuid: "afac3b6f-453a-70a0-e3c7-3f35e01f1a23"
+			set: 18
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 311472
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_Hand"
+		}
+		{
+			__uuid: "8d6f8450-6f9e-be63-b1fe-9e069ff15b20"
+			set: 19
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 326304
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandIndex1"
+		}
+		{
+			__uuid: "8b8e2aab-5c9c-b770-fb23-c518eeb9df7c"
+			set: 20
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 341136
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandIndex2"
+		}
+		{
+			__uuid: "2bca1e25-9d19-9628-7859-2e8d7abfa66b"
+			set: 21
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 355968
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandIndex3"
+		}
+		{
+			__uuid: "ef135da0-cd56-382e-b6e5-69f5dd58d453"
+			set: 22
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 370800
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandMiddle1"
+		}
+		{
+			__uuid: "2b72a0e0-2ec6-15cb-d3fb-21e8c917cb7e"
+			set: 23
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 385632
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandMiddle2"
+		}
+		{
+			__uuid: "96f6b15b-eda2-1ad7-a0e4-40a767a4ef57"
+			set: 24
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 400464
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandMiddle3"
+		}
+		{
+			__uuid: "1870e964-50e8-af3e-ab88-f025bac4d01d"
+			set: 25
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 415296
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandPinky1"
+		}
+		{
+			__uuid: "5dcc163e-879c-fccc-3d00-ec6c846bf266"
+			set: 26
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 430128
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandPinky2"
+		}
+		{
+			__uuid: "cf570308-ae95-d911-19c4-8175a6d27517"
+			set: 27
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 444960
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandPinky3"
+		}
+		{
+			__uuid: "4554dfd0-4e60-1608-cf63-e04c15434dc8"
+			set: 28
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 459792
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandRing1"
+		}
+		{
+			__uuid: "a956b5a7-5dd3-0367-1b2e-9a8a1142e755"
+			set: 29
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 474624
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandRing2"
+		}
+		{
+			__uuid: "5689df9f-6ec8-b5f6-c4ef-365cda9e88e6"
+			set: 30
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 489456
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandRing3"
+		}
+		{
+			__uuid: "7aca4e23-e87a-587b-5fe1-cebb491dc08a"
+			set: 31
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 504288
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandThumb1"
+		}
+		{
+			__uuid: "7d2845b6-86cd-62d9-85a7-5ede12e7d0d7"
+			set: 32
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 519120
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandThumb2"
+		}
+		{
+			__uuid: "a660df9b-6f19-c0bf-afdc-b56981d8183e"
+			set: 33
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 533952
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandThumb3"
+		}
+		{
+			__uuid: "b682006a-03dd-ef30-9dba-25f1c9424b64"
+			set: 34
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 548784
+			stride: 4
+			format: 16777248
+			primvar_name: "Root"
+		}
+		{
+			__uuid: "feff7999-5b3c-710e-71c0-3ee364f8f89a"
+			semantic: 7
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 563616
+			stride: 48
+			format: 352322336
+			primvar_name: "skel:jointIndices"
+		}
+		{
+			__uuid: "3140d7c5-fdad-44a6-3fa5-8af003a77a7a"
+			semantic: 8
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 741600
+			stride: 48
+			format: 285213472
+			primvar_name: "skel:jointWeights"
+		}
+		{
+			__uuid: "effbd0d2-18f4-8441-e44a-0db3e3966447"
+			semantic: 5
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 919584
+			stride: 8
+			format: 16779296
+			primvar_name: "st"
+		}
+		{
+			__uuid: "36e6443c-4420-e9a5-d8c4-98f8caed6af3"
+			semantic: 2
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 949248
+			stride: 12
+			format: 16910368
+			primvar_name: "normals"
+		}
+		{
+			__uuid: "060e50eb-aa1e-4254-e1a5-50bc154b5c85"
+			semantic: 14
+			count: 3708
+			buffer: "18022b30-4847-5895-0d7a-ec8d0963909d"
+			offset: 993744
+			stride: 4
+			format: 67108896
+		}
+		{
+			__uuid: "3059e63f-b666-4217-cd37-32d2b429b688"
+			count: 1
+			buffer: "c9951f3d-1e31-f825-17a1-37ab6766399d"
+			stride: 64
+			format: 50864256
+			primvar_name: "skel:geomBindTransform"
+		}
+	]
+	subsets: [
+		{
+			__uuid: "54199890-8e6e-4b95-6d36-f9b979f3d5a3"
+			name: "Hand_skin"
+			count: 4986
+		}
+		{
+			__uuid: "49bae112-a40f-729c-ee6f-1d2145158c3f"
+			name: "Hand_arrow"
+			index: 1
+			offset: 19944
+			count: 552
+		}
+	]
+	indices: {
+		__uuid: "6a9aa16c-1a3e-0b7d-ec78-03bfdb4936a0"
+		semantic: 9
+		count: 5538
+		buffer: "fe861c11-26b6-8aef-7139-b5110851ea22"
+		stride: 4
+		format: 67108896
+	}
+}
+transform: "3865a2eea51b6038"
+transform_settings: {
+	__uuid: "f54fafac-66d3-5b18-00c6-c0207e6ce17e"
+	graph: {
+		__uuid: "b3358413-64f8-1e4c-d9c9-55881696858e"
+		interface: {
+			__uuid: "7da1aa3c-6c61-e883-b6fd-8281194f3c07"
+			inputs: [
+				{
+					__uuid: "25c9e91a-9dfb-493b-ef40-7641f6a6f01d"
+					name: "Weld Vertices"
+					id: "weld_vertices"
+					value: {
+						__type: "tm_bool"
+						__uuid: "dd0eaf00-b072-9dc1-c705-26b51b7e84eb"
+						bool: true
+					}
+					public: true
+				}
+				{
+					__uuid: "265f48c2-7a60-a869-3eb6-c2070f2f6f65"
+					name: "Generate Normals"
+					id: "generate_normals"
+					value: {
+						__type: "tm_bool"
+						__uuid: "c8ff6e5f-3980-39bb-57d9-ed428f104eb6"
+						bool: true
+					}
+					public: true
+					order: 1
+				}
+				{
+					__uuid: "44fcf82e-abf0-4bb1-12f4-d97ee2688611"
+					name: "Generate Tangents"
+					id: "generate_tangents"
+					value: {
+						__type: "tm_bool"
+						__uuid: "aae480f3-e661-6a65-dde8-2e77de82730e"
+						bool: true
+					}
+					public: true
+					order: 2.0999999046325684
+				}
+				{
+					__uuid: "c24a0283-b3a6-fe5d-30da-adb06fcea8a5"
+					name: "Lightmap Settings"
+					id: "lightmap_settings"
+					value: {
+						__type: "tm_lightmap_geometry_settings"
+						__uuid: "8f2eb43a-1a52-941c-9121-306863efcded"
+						source_uvs: 1
+						resolution_scale: 1
+					}
+					public: true
+					order: 3
+				}
+				{
+					__uuid: "55197e1f-9387-2444-8f59-b6056c3de6cc"
+					name: "Replace Existing Normals"
+					id: "replace_existing_normals"
+					value: {
+						__type: "tm_bool"
+						__uuid: "0e9392f8-0bb0-a2f2-a679-0ec0c2ef588e"
+					}
+					public: true
+					order: 2
+				}
+				{
+					__uuid: "630646f4-3191-82c4-9571-d632a409f8c6"
+					name: "Optimize Vertex Cache"
+					id: "optimize_vertex_cache"
+					value: {
+						__type: "tm_bool"
+						__uuid: "a2824926-8017-67bd-7f31-48dc6194ae80"
+						bool: true
+					}
+					public: true
+					order: 2.0999999046325684
+				}
+				{
+					__uuid: "0957a005-170d-bc72-4176-8198ac753aee"
+					name: "Primvar Filter"
+					id: "primvar_filters"
+					value: {
+						__type: "tm_primvar_filter_set"
+						__uuid: "2be7d607-c01e-f8d2-09f9-79ed9f8c271b"
+					}
+					public: true
+					order: 5
+				}
+				{
+					__uuid: "f7a89b33-d547-44b2-2660-1c2bfb9b7588"
+					name: "Primvars"
+					id: "primvar_settings"
+					value: {
+						__type: "tm_primvar_settings_set"
+						__uuid: "11060572-db36-9325-c2e8-80fc3f697792"
+						set: [
+							{
+								__uuid: "d0dc5c79-343a-592e-da21-89442b5ef87a"
+								channel: "d46dd70a-068f-4e67-1d5d-99a25403eaba"
+							}
+							{
+								__uuid: "a5967784-82a4-b22c-b778-4151470fb431"
+								channel: "40b2c45a-ae9e-e195-3255-9410c4f66c5e"
+							}
+							{
+								__uuid: "7902f302-0fae-40c7-a92f-72b4329520a3"
+								channel: "c120c44c-7bbd-8e05-c288-93220d2e06ef"
+							}
+							{
+								__uuid: "27f4afaa-9de1-5d23-3a4c-3a2af1eb3051"
+								channel: "0edabfca-2bf3-47f9-ad44-1a7eed7b2d02"
+							}
+							{
+								__uuid: "f772bac2-453a-358d-8ce0-f2b6c3d9801c"
+								channel: "64e55dee-2801-6181-a163-ca2caca5bf58"
+							}
+							{
+								__uuid: "00630c95-cbdb-3c5b-908f-e08310d2d0b7"
+								channel: "afdf6446-4626-513d-99ed-58c2d602ef87"
+							}
+							{
+								__uuid: "4c38fe41-25e7-8962-c3b0-b1b4eb659fd9"
+								channel: "5b0ea094-df43-a418-674f-b5c30f299378"
+							}
+							{
+								__uuid: "81dcf33c-78b1-b50f-f073-6cd20156403d"
+								channel: "d34d3f90-b459-86aa-4eb8-eeed6049bea4"
+							}
+							{
+								__uuid: "335b4e9b-9a6c-77ae-c5e9-782f3bfc2312"
+								channel: "8444a4ac-b7b7-8e73-8928-77a18b4ca0b9"
+							}
+							{
+								__uuid: "ca7519ee-e515-c383-446e-d0110a8dff94"
+								channel: "f2ea0282-8a3e-06aa-8bcc-5440a3f250b9"
+							}
+							{
+								__uuid: "73bd916d-2e14-446e-3f57-849336bd7ad6"
+								channel: "f92439c7-b0e0-8662-f4b8-c1b869acb449"
+							}
+							{
+								__uuid: "5f9d7907-5ada-e2e2-04bf-18c75ef9508e"
+								channel: "606e6691-df49-02fc-99de-87aa1a255244"
+							}
+							{
+								__uuid: "787b0051-b9ef-1286-7ab4-a42c1b17f384"
+								channel: "79ff48e8-7e02-009a-db18-2164db0f2b27"
+							}
+							{
+								__uuid: "ab56d04b-ed93-6d90-43ee-69cc168dfead"
+								channel: "45e9e20e-cb05-f66d-4261-36cb081c85a8"
+							}
+							{
+								__uuid: "b14aa91e-8784-186a-ef5f-750527b94923"
+								channel: "9e3ff432-a251-ef87-b624-b14832da8107"
+							}
+							{
+								__uuid: "561496d9-1817-a46c-d36a-588ac8f67e61"
+								channel: "69ee0e81-31f7-2b3e-c55b-08a8c4cb4c1a"
+							}
+							{
+								__uuid: "7f521191-9172-e0a9-8b67-9f884bfe6481"
+								channel: "58473ed3-0e0b-bbbf-8f36-979b23e690c5"
+							}
+							{
+								__uuid: "b53cf93f-65d6-e6b8-2619-b302c9227389"
+								channel: "317735a6-ee9a-8c5c-103b-406f09056dc5"
+							}
+							{
+								__uuid: "5624f94b-5b8f-f103-a400-b760288a5c03"
+								channel: "1a3556f9-bce5-09de-00b6-a54c00a280b4"
+							}
+							{
+								__uuid: "31b30e19-62b0-3067-8b0a-a07b96aa23bc"
+								channel: "afac3b6f-453a-70a0-e3c7-3f35e01f1a23"
+							}
+							{
+								__uuid: "25224756-8c72-b893-989e-0443f9c53511"
+								channel: "8d6f8450-6f9e-be63-b1fe-9e069ff15b20"
+							}
+							{
+								__uuid: "ad95dc9c-ce2f-cdf6-bb12-429d8d8997bd"
+								channel: "8b8e2aab-5c9c-b770-fb23-c518eeb9df7c"
+							}
+							{
+								__uuid: "7f378efb-8ce9-8f49-d7cf-e9a18370e503"
+								channel: "2bca1e25-9d19-9628-7859-2e8d7abfa66b"
+							}
+							{
+								__uuid: "ff8a575d-26de-29e7-d396-c7fef6fece78"
+								channel: "ef135da0-cd56-382e-b6e5-69f5dd58d453"
+							}
+							{
+								__uuid: "a5035858-3c82-3590-c9ba-3b634231a625"
+								channel: "2b72a0e0-2ec6-15cb-d3fb-21e8c917cb7e"
+							}
+							{
+								__uuid: "ff0d82de-a3f3-7dc2-2fe4-a607ea4dc51d"
+								channel: "96f6b15b-eda2-1ad7-a0e4-40a767a4ef57"
+							}
+							{
+								__uuid: "0508caee-1da5-94b4-1aa4-a1281dbc21a0"
+								channel: "1870e964-50e8-af3e-ab88-f025bac4d01d"
+							}
+							{
+								__uuid: "042db286-3161-3c2c-2815-0aa5f4ff2081"
+								channel: "5dcc163e-879c-fccc-3d00-ec6c846bf266"
+							}
+							{
+								__uuid: "d127e2d2-9855-e50d-59dc-9c8f2c15044a"
+								channel: "cf570308-ae95-d911-19c4-8175a6d27517"
+							}
+							{
+								__uuid: "e0191013-0239-4505-b790-e4233c89fdab"
+								channel: "4554dfd0-4e60-1608-cf63-e04c15434dc8"
+							}
+							{
+								__uuid: "7fcecb35-4405-bf2c-c935-5d0a0e0110bb"
+								channel: "a956b5a7-5dd3-0367-1b2e-9a8a1142e755"
+							}
+							{
+								__uuid: "55a92b23-5032-3fa4-da1f-549c9b3cd041"
+								channel: "5689df9f-6ec8-b5f6-c4ef-365cda9e88e6"
+							}
+							{
+								__uuid: "dd9ffe95-6ef1-5c0e-50f5-8ae3d2ef0ddf"
+								channel: "7aca4e23-e87a-587b-5fe1-cebb491dc08a"
+							}
+							{
+								__uuid: "abbdde77-bb28-61fb-0b20-9f5bd0e020c9"
+								channel: "7d2845b6-86cd-62d9-85a7-5ede12e7d0d7"
+							}
+							{
+								__uuid: "2651423a-7bf2-5e2e-42f1-fa3720ea44ff"
+								channel: "a660df9b-6f19-c0bf-afdc-b56981d8183e"
+							}
+							{
+								__uuid: "c7b6dcf5-38bc-9916-52af-f6425f23c5fc"
+								channel: "b682006a-03dd-ef30-9dba-25f1c9424b64"
+							}
+							{
+								__uuid: "535ad752-9d06-6859-253c-99bd66f4a744"
+								channel: "feff7999-5b3c-710e-71c0-3ee364f8f89a"
+							}
+							{
+								__uuid: "e39572f8-d9b6-cf3f-7909-d7c2ea604b0f"
+								channel: "3140d7c5-fdad-44a6-3fa5-8af003a77a7a"
+							}
+							{
+								__uuid: "dc52ef6f-8aa9-876d-bad9-438b5c5669ca"
+								channel: "effbd0d2-18f4-8441-e44a-0db3e3966447"
+							}
+							{
+								__uuid: "41b5a560-6c18-0cfd-ede3-71ed052725af"
+								channel: "36e6443c-4420-e9a5-d8c4-98f8caed6af3"
+							}
+							{
+								__uuid: "b462c155-158e-e559-7c76-1f13f355a0cc"
+								channel: "060e50eb-aa1e-4254-e1a5-50bc154b5c85"
+							}
+						]
+					}
+					public: true
+					order: 6
+				}
+				{
+					__uuid: "0e39129d-3f14-da7e-4b4b-ee8a52b7e6d6"
+					name: "Retain Original Mesh"
+					id: "retain_original_mesh"
+					value: {
+						__type: "tm_mesh_descriptor_reference"
+						__uuid: "2e67b325-e469-501b-2ca2-02216d56c1f5"
+						mesh_descriptor: "8eda95ad-48aa-b9a3-393a-5389f6be6d6b"
+					}
+				}
+			]
+		}
+	}
+}
+output_geometry: {
+	__uuid: "1e73e517-f3fa-36b4-f605-d471411d7dd9"
+	buffers: [
+		{
+			__uuid: "00ca6378-d747-1711-b931-0da8df69ee66"
+		}
+		{
+			__uuid: "02811342-edfe-9410-031c-6befaabe345d"
+			index: 1
+		}
+		{
+			__uuid: "f7e22e70-5e15-8bbd-2881-cb0e713d7d46"
+			index: 2
+		}
+		{
+			__uuid: "66b8b3b1-df87-cd11-6d71-d187a1772b4b"
+			index: 3
+		}
+		{
+			__uuid: "34df88f8-5291-7c8f-52c7-7a1fd2181ad6"
+			index: 4
+		}
+	]
+	channels: [
+		{
+			__uuid: "0d5b0bf6-c7e1-54ff-da1b-18f1c30dfaa4"
+			semantic: 1
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			stride: 12
+			format: 16910368
+			primvar_name: "points"
+		}
+		{
+			__uuid: "24163a33-66dc-d573-7ede-7248baa58124"
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 13284
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left"
+		}
+		{
+			__uuid: "85a8eeaf-aa71-7038-ae81-a0d490296166"
+			set: 1
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 17712
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_Hand"
+		}
+		{
+			__uuid: "f8b8ec27-011c-5bdc-095e-b5fc4f3f279c"
+			set: 2
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 22140
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandIndex1"
+		}
+		{
+			__uuid: "160a7428-88f1-edd0-25fd-8a20f21f2f75"
+			set: 3
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 26568
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandIndex2"
+		}
+		{
+			__uuid: "d36a06b1-8e38-3952-ded2-3f074fbe8ff7"
+			set: 4
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 30996
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandIndex3"
+		}
+		{
+			__uuid: "c8198b35-82b9-611c-1ce9-06cab4420dc2"
+			set: 5
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 35424
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandMiddle1"
+		}
+		{
+			__uuid: "0b676811-50a2-1861-c0e9-0d0ff5043dc6"
+			set: 6
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 39852
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandMiddle2"
+		}
+		{
+			__uuid: "bb84cbf7-7e84-2fac-3f23-48ac4bd6803a"
+			set: 7
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 44280
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandMiddle3"
+		}
+		{
+			__uuid: "998efaee-5b07-2e90-20f8-6ee5d5934994"
+			set: 8
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 48708
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandPinky1"
+		}
+		{
+			__uuid: "c2baf962-29d8-3a9a-9040-b2d9f6e98bcb"
+			set: 9
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 53136
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandPinky2"
+		}
+		{
+			__uuid: "bc4f09d2-2426-c68a-32bf-6a861b34371a"
+			set: 10
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 57564
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandPinky3"
+		}
+		{
+			__uuid: "1fc638ad-6444-6f21-6e1e-db62d473f3ab"
+			set: 11
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 61992
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandRing1"
+		}
+		{
+			__uuid: "e36c62b3-24fb-82b5-6211-b2f91d46986c"
+			set: 12
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 66420
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandRing2"
+		}
+		{
+			__uuid: "fed44b40-06a0-a723-ae79-12b78da0cf3e"
+			set: 13
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 70848
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandRing3"
+		}
+		{
+			__uuid: "385be4a7-1af4-c209-cbbb-3bb0f48912d5"
+			set: 14
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 75276
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandThumb1"
+		}
+		{
+			__uuid: "4aed8122-8456-db74-1ae1-65b0894d1bb7"
+			set: 15
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 79704
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandThumb2"
+		}
+		{
+			__uuid: "838447b7-7642-b767-6475-024f97999d9d"
+			set: 16
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 84132
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Left_HandThumb3"
+		}
+		{
+			__uuid: "e4ec1db0-7764-b412-f400-b43a5bc4913c"
+			set: 17
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 88560
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right"
+		}
+		{
+			__uuid: "b8055989-1d3f-3b3b-d4ed-48f1d6a4d3ce"
+			set: 18
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 92988
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_Hand"
+		}
+		{
+			__uuid: "0713acd2-a95c-7a31-dffa-9f08c09f1f20"
+			set: 19
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 97416
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandIndex1"
+		}
+		{
+			__uuid: "30b535f6-f847-e64e-b305-fa1195694af2"
+			set: 20
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 101844
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandIndex2"
+		}
+		{
+			__uuid: "63f11a91-134a-7b82-1ce6-1045a99974ab"
+			set: 21
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 106272
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandIndex3"
+		}
+		{
+			__uuid: "abe1098d-06c5-ac3b-dcd5-78ebc0b9cbba"
+			set: 22
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 110700
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandMiddle1"
+		}
+		{
+			__uuid: "fa42d9a7-a74e-89da-376a-84a90dc9a06d"
+			set: 23
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 115128
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandMiddle2"
+		}
+		{
+			__uuid: "b5acb8d3-0631-766f-9330-4c31151a4300"
+			set: 24
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 119556
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandMiddle3"
+		}
+		{
+			__uuid: "6b878812-4801-170b-3a27-67c10c0d86c9"
+			set: 25
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 123984
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandPinky1"
+		}
+		{
+			__uuid: "43c85103-912c-effe-f4d9-0029f879568e"
+			set: 26
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 128412
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandPinky2"
+		}
+		{
+			__uuid: "56755d24-6905-0dca-77cf-f646cfba8f71"
+			set: 27
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 132840
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandPinky3"
+		}
+		{
+			__uuid: "2fac1576-8f8e-b1ef-d4f0-4e6e5111108f"
+			set: 28
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 137268
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandRing1"
+		}
+		{
+			__uuid: "6f520507-e5ae-5a10-f8f4-fe3c7c8e80f0"
+			set: 29
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 141696
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandRing2"
+		}
+		{
+			__uuid: "07a1b3d3-d532-e63d-4255-ffc7031a4db5"
+			set: 30
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 146124
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandRing3"
+		}
+		{
+			__uuid: "e8e1fe10-ebd7-86dd-cee7-b228071e1a93"
+			set: 31
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 150552
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandThumb1"
+		}
+		{
+			__uuid: "46a78e3c-f3c8-3be4-3184-dfaae9460cf0"
+			set: 32
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 154980
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandThumb2"
+		}
+		{
+			__uuid: "78a27786-bbe5-4db6-bbe8-0eba3d8037ed"
+			set: 33
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 159408
+			stride: 4
+			format: 16777248
+			primvar_name: "J_Right_HandThumb3"
+		}
+		{
+			__uuid: "4da53cb8-c0ec-da57-7b07-996f5697781b"
+			set: 34
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 163836
+			stride: 4
+			format: 16777248
+			primvar_name: "Root"
+		}
+		{
+			__uuid: "78750548-8288-50cd-7da4-e5b2c0fbdfee"
+			semantic: 7
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 168264
+			stride: 48
+			format: 352322336
+			primvar_name: "skel:jointIndices"
+		}
+		{
+			__uuid: "5ea7feb4-08ba-1a7b-873c-863abcf4d2f5"
+			semantic: 8
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 221400
+			stride: 48
+			format: 285213472
+			primvar_name: "skel:jointWeights"
+		}
+		{
+			__uuid: "91d1b784-4b14-5f05-1652-106de4fa5ebf"
+			semantic: 5
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 274536
+			stride: 8
+			format: 16779296
+			primvar_name: "st"
+		}
+		{
+			__uuid: "d89b97e8-bd3d-5d4a-19bf-738bd40abd94"
+			semantic: 2
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 283392
+			stride: 12
+			format: 16910368
+			primvar_name: "normals"
+		}
+		{
+			__uuid: "15eaef03-6db1-2be7-bf36-ab81269b1472"
+			semantic: 14
+			count: 1107
+			buffer: "00ca6378-d747-1711-b931-0da8df69ee66"
+			offset: 296676
+			stride: 4
+			format: 67108896
+		}
+		{
+			__uuid: "14c207bb-ce0d-d4de-78f7-3197c6fe5618"
+			semantic: 3
+			count: 1107
+			buffer: "66b8b3b1-df87-cd11-6d71-d187a1772b4b"
+			stride: 16
+			format: 25298976
+		}
+		{
+			__uuid: "57fdc398-6598-00fc-20ef-0e6fb7d8a563"
+			semantic: 4
+			count: 1107
+			buffer: "34df88f8-5291-7c8f-52c7-7a1fd2181ad6"
+			stride: 12
+			format: 16910368
+		}
+	]
+	subsets: [
+		{
+			__uuid: "084f1e4a-5a88-792b-7f70-bee6898cd6d3"
+			name: "Hand_skin"
+			count: 4986
+		}
+		{
+			__uuid: "ed38562f-8e90-9828-ae7a-f029379bac58"
+			name: "Hand_arrow"
+			index: 1
+			offset: 19944
+			count: 552
+		}
+	]
+	indices: {
+		__uuid: "f4ec1315-57ab-d279-d4aa-bb6a0734ebbd"
+		semantic: 9
+		count: 5538
+		buffer: "02811342-edfe-9410-031c-6befaabe345d"
+		stride: 4
+		format: 67108896
+	}
+}
+validity_hash: "92bfa6ac0cd3a9bc"
+__asset_uuid: "1075ba2b-8000-d92c-41c8-f6d305d5a265"

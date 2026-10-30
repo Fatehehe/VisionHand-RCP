@@ -1,0 +1,92 @@
+__type: "tm_mesh_descriptor"
+__uuid: "4fda2306-4bd2-b044-4fb4-eb1be049ba48"
+vertex_count: 62745
+face_vertex_counts: {
+	__uuid: "45afb507-be5b-6e81-2cf0-8603a957e3d4"
+	data: "2fee2849-445d-9306-0461-f33da71bc600"
+	format: 83886112
+	value_count: 62708
+}
+indices: {
+	__uuid: "bc61d785-6df4-9c24-f48b-ca4c067bf3d3"
+	data: "eb1f819a-351c-48d4-71ac-296a141957d7"
+	format: 83886112
+	value_count: 250832
+}
+attributes: [
+	{
+		__uuid: "aa1f7ba6-ceee-7d08-f74a-d07bfa5a478c"
+		name: "points"
+		interpolation: 2
+		semantic: 1
+		values: {
+			__uuid: "cb281079-a78a-3cc8-d0a3-a1c9b545226f"
+			data: "1fa70ee5-838f-cb52-e796-6f274683b2b9"
+			format: 16910368
+			value_count: 62745
+		}
+	}
+	{
+		__uuid: "f9f9dc49-ff2d-1753-780a-d55e5b94e69c"
+		name: "primvars:displayColor"
+		values: {
+			__uuid: "d3f87ada-7a06-bf54-db20-8e422c02286a"
+			data: "6b421f45-4829-e4c2-626e-06977bc13671"
+			format: 16910368
+			value_count: 1
+		}
+	}
+	{
+		__uuid: "3a35305b-52a3-04c3-0db9-e903621ec591"
+		name: "primvars:st"
+		interpolation: 3
+		semantic: 5
+		values: {
+			__uuid: "c751a34f-46d2-4906-22de-423fab8604ea"
+			data: "10c0e5e7-85f0-df42-0373-a682ee756c17"
+			format: 16779296
+			value_count: 73536
+		}
+		indices: {
+			__uuid: "93469d14-86f4-953b-33e0-0da691e1a03f"
+			data: "797802ed-ed79-d23a-ad04-5321534d8250"
+			format: 83886112
+			value_count: 250832
+		}
+	}
+	{
+		__uuid: "1b656a85-9d30-2991-4e4c-1be8fb67459e"
+		name: "normals"
+		interpolation: 3
+		semantic: 2
+		values: {
+			__uuid: "446ec163-c566-e4d2-d209-f84f75bf5410"
+			data: "3e64787d-677c-a729-f8e5-9ce1a99266be"
+			format: 16910368
+			value_count: 250832
+		}
+	}
+]
+skinning_data: {
+	__uuid: "e221f852-34da-effb-bf5d-260097feb44f"
+	vertex_count: 62745
+	influence_count_per_vertex: 3
+	indices: "5c461637-2aaa-d0d6-2536-7aaa4d762843"
+	weights: "b22c81be-bf70-419d-29e5-a2a53509fca3"
+	bind_transform: {
+		__uuid: "6db485b5-7a13-93c8-6273-2bae5197aa29"
+		xx: 0.9965667724609375
+		xy: -0.055619869381189346
+		xz: -0.061327800154685974
+		yx: -0.071824975311756134
+		yy: -0.21236109733581543
+		yz: -0.97454804182052612
+		zx: 0.041180599480867386
+		zy: 0.97560709714889526
+		zz: -0.21562691032886505
+		wx: 17.88789176940918
+		wy: -8.7122821807861328
+		wz: 10.71767520904541
+	}
+}
+__asset_uuid: "f7ee7c36-e427-9018-a816-eb313a3461da"

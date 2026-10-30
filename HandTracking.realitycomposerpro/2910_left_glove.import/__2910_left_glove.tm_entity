@@ -1,0 +1,401 @@
+__type: "tm_entity"
+__uuid: "a11958bc-3a0b-7224-b2a1-ac89d6ed1173"
+name: "/"
+components: [
+	{
+		__type: "tm_transform_component"
+		__uuid: "14e85020-8e31-8dbd-6d0f-922c35986a27"
+		local_position_double: {
+			__uuid: "1ae9c118-7c8b-0bcd-bc24-c4850763d71a"
+		}
+		local_rotation: {
+			__uuid: "b3f8a8db-8d18-18f2-6f67-28b4d4e66173"
+			x: -0.70710676908493042
+			w: 0.70710676908493042
+		}
+		local_scale: {
+			__uuid: "2573d3f9-3abc-38e8-bc29-a2b1ed465b99"
+		}
+	}
+	{
+		__type: "tm_scene_tree_component"
+		__uuid: "da9d640d-0227-668d-091c-ec4177bc086b"
+		nodes: "ff5a623a-a2e0-8979-e25b-e142cbde10d6"
+		node_names: "69146e08-251c-16a1-cb12-7dcaec45a5a0"
+	}
+]
+children: [
+	{
+		__uuid: "b698aa6e-72fd-dccd-88e3-cdb05a56b455"
+		name: "root"
+		components: [
+			{
+				__type: "tm_transform_component"
+				__uuid: "c92c058a-f6a7-2819-d437-1d5025113792"
+				local_position_double: {
+					__uuid: "40594b49-8427-e649-d5a5-0e0fbb06a6ca"
+				}
+				local_rotation: {
+					__uuid: "d70d9df8-31b2-6638-f781-d3afdc7f9976"
+				}
+				local_scale: {
+					__uuid: "46457aa9-3e03-8173-0fde-59d3de327903"
+				}
+			}
+		]
+		children: [
+			{
+				__uuid: "0f72fe6d-19f4-7290-edd1-88ad16e99eb7"
+				name: "Root"
+				components: [
+					{
+						__type: "tm_transform_component"
+						__uuid: "0fdc0da5-6a2b-3fe4-5e7b-7b85203fddbb"
+						local_position_double: {
+							__uuid: "441489ea-b714-f913-474a-ff0c74ede81a"
+						}
+						local_rotation: {
+							__uuid: "4c68be14-77d9-e5e0-a62f-d4b634f2af49"
+							x: 0.70710670948028565
+							w: 0.7071068286895752
+						}
+						local_scale: {
+							__uuid: "3c3e05df-df8a-d0b7-4edd-d4af1b824e8b"
+							x: 0.99999994039535523
+						}
+					}
+				]
+				children: [
+					{
+						__uuid: "0c19db1d-e2c5-1d31-27b4-fc904c2ff077"
+						name: "LeftGlove_v001"
+						components: [
+							{
+								__type: "tm_transform_component"
+								__uuid: "38d469b2-001c-1470-7207-a1a17bb8a8af"
+								local_position_double: {
+									__uuid: "2761661a-69ee-6186-98ee-f32e4a818b46"
+								}
+								local_rotation: {
+									__uuid: "24276a6e-d8be-a1f8-ab06-2d14a8c9e9a1"
+								}
+								local_scale: {
+									__uuid: "2b84f6b8-cd75-19fb-5bb7-5622dad35ef1"
+								}
+							}
+						]
+						children: [
+							{
+								__uuid: "1f301015-d037-e496-18bf-a420ef70e800"
+								name: "locator1"
+								components: [
+									{
+										__type: "tm_transform_component"
+										__uuid: "316cb462-0176-ff96-ca9f-ac7e82cf8149"
+										local_position_double: {
+											__uuid: "4919b3e6-38a5-f18b-3751-7a2203ab1ac2"
+										}
+										local_rotation: {
+											__uuid: "32dff9a5-6e85-024d-b00e-a5e0dcb5dc5c"
+										}
+										local_scale: {
+											__uuid: "8b221244-0c1f-a93d-2b31-5279f036dfee"
+											x: 0.0099999997764825821
+											y: 0.0099999997764825821
+											z: 0.0099999997764825821
+										}
+									}
+								]
+								children: [
+									{
+										__uuid: "9357e957-8841-37a0-f226-0b9b436699bf"
+										name: "locatorShape1"
+										components: [
+											{
+												__type: "tm_transform_component"
+												__uuid: "bee1c7ab-b435-86ae-5f2c-b966955efa1f"
+												local_position_double: {
+													__uuid: "7050965d-ccb0-f79c-7d2c-814b34fcc83b"
+												}
+												local_rotation: {
+													__uuid: "1db18ac9-0d23-6fbf-d662-713f32ddba54"
+													x: 3.5527136788005009e-15
+												}
+												local_scale: {
+													__uuid: "888e1765-a9f7-b9c1-7001-0effa0e0ba08"
+													x: 1.0000001192092896
+												}
+											}
+										]
+									}
+									{
+										__uuid: "0c4f8da0-6665-039c-5d15-af4ce0e87ac5"
+										name: "left_hand_joint"
+										components: [
+											{
+												__type: "tm_transform_component"
+												__uuid: "f3a1b432-376a-637d-40a6-e871b3964c45"
+												local_position_double: {
+													__uuid: "58e69d49-e262-9ba1-b646-a0aea6a62e8b"
+												}
+												local_rotation: {
+													__uuid: "9d02bde7-872b-6356-6104-6448f9d2a341"
+													x: 3.5527136788005009e-15
+												}
+												local_scale: {
+													__uuid: "276b3eae-64d7-9920-06c6-15952f8d14a3"
+													x: 1.0000001192092896
+												}
+											}
+										]
+										children: [
+											{
+												__uuid: "706db5af-e632-f5d1-f0c0-6b25303fca1e"
+												name: "left_hand_joint"
+												components: [
+													{
+														__type: "tm_transform_component"
+														__uuid: "386194ad-7a54-8665-2f46-e918df5969bd"
+														local_position_double: {
+															__uuid: "065d42e3-9832-73fc-483c-b7a1f8f8c5fe"
+														}
+														local_rotation: {
+															__uuid: "879d2069-eae7-f804-d77d-639299231754"
+														}
+														local_scale: {
+															__uuid: "8270ef53-9918-2ae2-509d-0fd43968d62b"
+														}
+													}
+													{
+														__type: "tm_skeleton_component"
+														__uuid: "8edb52ee-f02e-6fbf-dce3-ff01141bad3f"
+														skeleton_hierarchy: "ecdd5b71-0ff7-764e-c977-3118d081861b"
+													}
+												]
+											}
+											{
+												__uuid: "e0fb814f-0416-1b70-8a37-192ed9e0f1aa"
+												name: "SM_HandsVR_Male_001"
+												components: [
+													{
+														__type: "tm_transform_component"
+														__uuid: "6fb80dc6-23c5-c004-571d-4529fb213a61"
+														local_position_double: {
+															__uuid: "00e6ba64-9385-6085-68cf-466295afd14f"
+															y: 3.7252905826790084e-07
+															z: 2.8125166583702066e-14
+														}
+														local_rotation: {
+															__uuid: "40e29b17-8430-7584-8545-52320dbbb3d1"
+															x: 0.50000005960464478
+															y: 0.49999997019767761
+															z: 0.50000005960464478
+															w: 0.49999997019767761
+														}
+														local_scale: {
+															__uuid: "cd302daf-a6d3-9aa3-d239-8f3bfd60a4ca"
+															z: 1.0000003576278687
+														}
+													}
+												]
+												children: [
+													{
+														__uuid: "69bbc539-1db4-8f5f-9e68-ce0c4ccd9267"
+														name: "Mesh_001"
+														components: [
+															{
+																__type: "tm_transform_component"
+																__uuid: "ab293364-8b05-4bdf-db15-4fb75c90e8cd"
+																local_position_double: {
+																	__uuid: "e9fe0368-956e-1af1-2f5d-9ada641b7d86"
+																}
+																local_rotation: {
+																	__uuid: "f15756ce-6d6c-b9fe-443d-fe0878e32c0b"
+																}
+																local_scale: {
+																	__uuid: "98a1951e-0937-2d9a-6559-2b1625b6964c"
+																}
+															}
+															{
+																__type: "tm_skinning_component"
+																__uuid: "acc24be1-69fb-664a-0f9b-d8851d71ec6c"
+																bones: "6e52a618-837f-e31a-d08f-2eac35aca6b3"
+																bone_names: [
+																	{
+																		__uuid: "78d12e01-c9cf-469e-5495-88b5715359a4"
+																		bone_name: "left_hand_joint"
+																	}
+																	{
+																		__uuid: "ba36f716-1f1f-6d85-b762-c529766d40fc"
+																		bone_index: 1
+																		bone_name: "left_hand_joint/left_handThumbStart_joint"
+																	}
+																	{
+																		__uuid: "3529fe71-9f90-2e79-b8c1-d24e9ebc4cf1"
+																		bone_index: 2
+																		bone_name: "left_hand_joint/left_handThumbStart_joint/left_handThumb_1_joint"
+																	}
+																	{
+																		__uuid: "5ed02232-3a2d-1076-1606-bb37ab1debe6"
+																		bone_index: 3
+																		bone_name: "left_hand_joint/left_handThumbStart_joint/left_handThumb_1_joint/left_handThumb_2_joint"
+																	}
+																	{
+																		__uuid: "070ff719-97ab-bc3a-2f3b-0d323bef3c4a"
+																		bone_index: 4
+																		bone_name: "left_hand_joint/left_handThumbStart_joint/left_handThumb_1_joint/left_handThumb_2_joint/left_handThumbEnd_joint"
+																	}
+																	{
+																		__uuid: "3d7c97be-5862-89e4-5517-019707d8d49f"
+																		bone_index: 5
+																		bone_name: "left_hand_joint/left_handIndexStart_joint"
+																	}
+																	{
+																		__uuid: "af96f79b-59e0-f7b8-58e5-e8ccff8a4d7a"
+																		bone_index: 6
+																		bone_name: "left_hand_joint/left_handIndexStart_joint/left_handIndex_1_joint"
+																	}
+																	{
+																		__uuid: "3b6f457f-930c-68fb-cef4-34b0178b00a7"
+																		bone_index: 7
+																		bone_name: "left_hand_joint/left_handIndexStart_joint/left_handIndex_1_joint/left_handIndex_2_joint"
+																	}
+																	{
+																		__uuid: "3b65c75f-7ca8-e043-c942-38ea5389ade6"
+																		bone_index: 8
+																		bone_name: "left_hand_joint/left_handIndexStart_joint/left_handIndex_1_joint/left_handIndex_2_joint/left_handIndex_3_joint"
+																	}
+																	{
+																		__uuid: "6031ba51-0546-cc4a-3298-937b9a1c0934"
+																		bone_index: 9
+																		bone_name: "left_hand_joint/left_handIndexStart_joint/left_handIndex_1_joint/left_handIndex_2_joint/left_handIndex_3_joint/left_handIndexEnd_joint"
+																	}
+																	{
+																		__uuid: "81147e81-6946-3326-b5a1-e9584545a8b7"
+																		bone_index: 10
+																		bone_name: "left_hand_joint/left_handMidStart_joint"
+																	}
+																	{
+																		__uuid: "d7a75bdc-b86c-82f9-2488-231fc00348c7"
+																		bone_index: 11
+																		bone_name: "left_hand_joint/left_handMidStart_joint/left_handMid_1_joint"
+																	}
+																	{
+																		__uuid: "5be7211f-77aa-19aa-597e-8cbbc5ffb4a4"
+																		bone_index: 12
+																		bone_name: "left_hand_joint/left_handMidStart_joint/left_handMid_1_joint/left_handMid_2_joint"
+																	}
+																	{
+																		__uuid: "b39d9c5f-49dc-d8fc-7692-f51108c0e5b3"
+																		bone_index: 13
+																		bone_name: "left_hand_joint/left_handMidStart_joint/left_handMid_1_joint/left_handMid_2_joint/left_handMid_3_joint"
+																	}
+																	{
+																		__uuid: "14d36f37-35af-6c5c-f14a-939f8b000f6d"
+																		bone_index: 14
+																		bone_name: "left_hand_joint/left_handMidStart_joint/left_handMid_1_joint/left_handMid_2_joint/left_handMid_3_joint/left_handMidEnd_joint"
+																	}
+																	{
+																		__uuid: "671d60d7-e3eb-275f-9660-6caf8594b407"
+																		bone_index: 15
+																		bone_name: "left_hand_joint/left_handRingStart_joint"
+																	}
+																	{
+																		__uuid: "8977f5e0-3cf1-a99d-ce3f-20e6602a342e"
+																		bone_index: 16
+																		bone_name: "left_hand_joint/left_handRingStart_joint/left_handRing_1_joint"
+																	}
+																	{
+																		__uuid: "78a23e21-e3ac-3c1b-45a7-1ba753486418"
+																		bone_index: 17
+																		bone_name: "left_hand_joint/left_handRingStart_joint/left_handRing_1_joint/left_handRing_2_joint"
+																	}
+																	{
+																		__uuid: "2b9e6499-c521-6733-8c29-115fb4e68aa0"
+																		bone_index: 18
+																		bone_name: "left_hand_joint/left_handRingStart_joint/left_handRing_1_joint/left_handRing_2_joint/left_handRing_3_joint"
+																	}
+																	{
+																		__uuid: "ae7b8a41-7b4d-e64b-87f9-ee70ac3f39ab"
+																		bone_index: 19
+																		bone_name: "left_hand_joint/left_handRingStart_joint/left_handRing_1_joint/left_handRing_2_joint/left_handRing_3_joint/left_handRingEnd_joint"
+																	}
+																	{
+																		__uuid: "ff1117c3-59e1-42cf-09ab-efe702afd3b6"
+																		bone_index: 20
+																		bone_name: "left_hand_joint/left_handPinkyStart_joint"
+																	}
+																	{
+																		__uuid: "f4a68148-526b-4ad7-1609-65df54253827"
+																		bone_index: 21
+																		bone_name: "left_hand_joint/left_handPinkyStart_joint/left_handPinky_1_joint"
+																	}
+																	{
+																		__uuid: "c640b520-42b5-bae8-5998-42121b196964"
+																		bone_index: 22
+																		bone_name: "left_hand_joint/left_handPinkyStart_joint/left_handPinky_1_joint/left_handPinky_2_joint"
+																	}
+																	{
+																		__uuid: "c768a6a8-08ef-e877-4a6f-bcc632a58ed1"
+																		bone_index: 23
+																		bone_name: "left_hand_joint/left_handPinkyStart_joint/left_handPinky_1_joint/left_handPinky_2_joint/left_handPinky_3_joint"
+																	}
+																	{
+																		__uuid: "6a85784c-496c-7f0b-7cb1-10e1aef368b5"
+																		bone_index: 24
+																		bone_name: "left_hand_joint/left_handPinkyStart_joint/left_handPinky_1_joint/left_handPinky_2_joint/left_handPinky_3_joint/left_handPinkyEnd_joint"
+																	}
+																	{
+																		__uuid: "bf02192a-fd8c-0d76-a19c-383459ea5714"
+																		bone_index: 25
+																		bone_name: "left_hand_joint/left_hand_twist_2_joint"
+																	}
+																	{
+																		__uuid: "5330c276-18a3-6345-237e-c0bbf4f0219a"
+																		bone_index: 26
+																		bone_name: "left_hand_joint/left_forearm_joint"
+																	}
+																]
+																skeleton_entity: "706db5af-e632-f5d1-f0c0-6b25303fca1e"
+															}
+															{
+																__type: "tm_model_component"
+																__uuid: "7327eea3-06e8-4d67-062e-d7d5473f4833"
+																mesh_resource: {
+																	__type: "tm_mesh_resource_reference"
+																	__uuid: "a402a47d-7bb5-2df3-a6da-a75110502467"
+																	mesh_resource: "d0744244-5bd9-a1fd-4760-bff7bd07dffb"
+																}
+																materials: [
+																	{
+																		__uuid: "a1c62a2a-4c28-929b-3917-6c894b4b1531"
+																		name: "Hand_skin"
+																		material: "dcb54cd2-bc26-8e60-9a30-ca3c8e002d61"
+																	}
+																	{
+																		__uuid: "ff521f68-dd6a-ee51-e619-6339518ff9e2"
+																		name: "Hand_arrow"
+																		index: 1
+																		material: "7f673d71-3845-1eca-f3b8-26e0b5caa118"
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
+__asset_uuid: "549b9329-5402-5b2b-6ec8-5be983794819"
+__asset_labels: [
+	"2cbc16a459dc040f"
+]

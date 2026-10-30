@@ -1,0 +1,475 @@
+__type: "tm_mesh_descriptor"
+__uuid: "8eda95ad-48aa-b9a3-393a-5389f6be6d6b"
+vertex_count: 937
+face_vertex_counts: {
+	__uuid: "2d11d7c2-69a0-b3cb-22d1-53c66c585af4"
+	data: "5ea5a8ed-2f60-75e2-23e9-708590429836"
+	format: 83886112
+	value_count: 931
+}
+indices: {
+	__uuid: "c01d98fc-4e92-e5b2-6893-090438ffd2bb"
+	data: "2846858e-342c-d905-3036-29f9c3e92703"
+	format: 83886112
+	value_count: 3708
+}
+attributes: [
+	{
+		__uuid: "fa405c9a-021b-4367-dd42-5f8dea58c0fe"
+		name: "points"
+		interpolation: 2
+		semantic: 1
+		values: {
+			__uuid: "086a5573-9386-b3e2-e0f8-0d38624a12c4"
+			data: "014ba3ce-4fe4-1017-4930-8733413e40a6"
+			format: 16910368
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "0b35e8aa-cde6-e319-44a7-fa0bbae3899a"
+		name: "primvars:J_Left"
+		interpolation: 2
+		values: {
+			__uuid: "29699006-463a-c773-8c03-f9b748149e7a"
+			data: "3c920120-5c72-911b-4b9c-ec019d9c1108"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "85c2ffef-60a9-f344-2272-a373b18dba3c"
+		name: "primvars:J_Left_Hand"
+		interpolation: 2
+		values: {
+			__uuid: "a8b9d30f-c693-e36b-d7b7-4872b0200910"
+			data: "5f82af55-eee2-bfaf-b350-ac45e8a97cc6"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "7379c9f1-278f-b16d-58ff-15b7a6dc0d34"
+		name: "primvars:J_Left_HandIndex1"
+		interpolation: 2
+		values: {
+			__uuid: "1fda5d48-ac25-9ac8-db56-74e482830d20"
+			data: "c5c4c776-b91d-0dec-9561-3e36bb002ce9"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "ee7e053b-9105-1f82-c362-14a45be4ca75"
+		name: "primvars:J_Left_HandIndex2"
+		interpolation: 2
+		values: {
+			__uuid: "ea633e37-fe03-1db8-e40a-b80dbb03fa96"
+			data: "d7388eb3-f89b-f886-26ee-cec32c521893"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "80586039-54cc-c4b0-d861-f66493b1e1d1"
+		name: "primvars:J_Left_HandIndex3"
+		interpolation: 2
+		values: {
+			__uuid: "e74fc6a6-557d-4112-7bba-9edc600e3551"
+			data: "8c7724ea-8dd3-dcb1-eac3-65e852163f3d"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "be705f11-6d83-a6ef-8fc7-1c812f7823c9"
+		name: "primvars:J_Left_HandMiddle1"
+		interpolation: 2
+		values: {
+			__uuid: "e2cd1584-ea26-355c-d204-c776014d1d4e"
+			data: "bea17836-a952-1105-e93b-31101fca6315"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "cd7391ff-9660-8212-d956-d5c26fa8699d"
+		name: "primvars:J_Left_HandMiddle2"
+		interpolation: 2
+		values: {
+			__uuid: "46b284d6-3bdb-26b2-593a-f41a1dd57e30"
+			data: "905e2371-f4fc-49fb-4779-daf4bfa39078"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "1c02f892-70ee-e20c-bae8-1995c1de7bfd"
+		name: "primvars:J_Left_HandMiddle3"
+		interpolation: 2
+		values: {
+			__uuid: "9fa110d9-a5bd-5bc8-8be8-30523d76c9c9"
+			data: "ed5c95ba-ce8c-ccfe-1ffd-fd667d63d644"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "f43e63ae-885e-4ba1-fb29-7d6e4e6e5c01"
+		name: "primvars:J_Left_HandPinky1"
+		interpolation: 2
+		values: {
+			__uuid: "6c2db036-82c1-65a4-41b5-f5da2bf039a2"
+			data: "464216b6-faee-23f0-55d7-06d45096d49b"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "0d8dabc2-235c-6bab-6794-372c7425047e"
+		name: "primvars:J_Left_HandPinky2"
+		interpolation: 2
+		values: {
+			__uuid: "eb0391a3-3df6-a3a3-0dd4-e908db6b6b10"
+			data: "3e178889-e280-ce21-a5fb-4042e4950878"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "be6941f9-504a-0f2f-a7f1-1ea1e61ebf50"
+		name: "primvars:J_Left_HandPinky3"
+		interpolation: 2
+		values: {
+			__uuid: "32a2209e-b2d3-b90c-80ba-8cce183f0fdc"
+			data: "4dd61520-7ae2-6b7d-03ba-57d1ac11bd35"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "b04e60e5-74fc-e271-8333-7c564ad881b0"
+		name: "primvars:J_Left_HandRing1"
+		interpolation: 2
+		values: {
+			__uuid: "c382c533-bf4d-c6bc-52aa-32127c54eb0a"
+			data: "546ddbf9-9b4d-0827-06d1-e89e938fa878"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "bec76bea-55c4-06ea-d776-2671c612138b"
+		name: "primvars:J_Left_HandRing2"
+		interpolation: 2
+		values: {
+			__uuid: "e317f8aa-ac8a-e1be-9cd4-ca2e314ecad8"
+			data: "1fc654cf-189e-cca9-beab-92c272831a57"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "b9d8cd68-b9bf-f433-6333-b96186741a0f"
+		name: "primvars:J_Left_HandRing3"
+		interpolation: 2
+		values: {
+			__uuid: "6fd6d0de-e744-c87d-d298-954288dd14fd"
+			data: "4959ff84-3553-fde1-fba9-725130e10561"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "0c7a990f-d7f9-988a-53f3-6fa4ad461445"
+		name: "primvars:J_Left_HandThumb1"
+		interpolation: 2
+		values: {
+			__uuid: "da327ace-b09e-1e62-c211-76e53deb02cf"
+			data: "b5633896-51f7-344c-93fc-6086b0e2b718"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "0c18a1a7-40d0-88a8-ac2c-1857684c9828"
+		name: "primvars:J_Left_HandThumb2"
+		interpolation: 2
+		values: {
+			__uuid: "5afdbd84-2aba-3037-b509-87ffbfeed448"
+			data: "7024bf5b-efbd-34ee-a5c2-f2b051adc29e"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "5ec41611-c201-9c0e-f9a5-e8f99feffbb6"
+		name: "primvars:J_Left_HandThumb3"
+		interpolation: 2
+		values: {
+			__uuid: "52a9e644-4e1e-80e7-f2bc-de919bec5aff"
+			data: "f4796011-cb16-68ee-7695-8edbb4019524"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "4ca92f42-37fe-6d69-7188-489de5b54100"
+		name: "primvars:J_Right"
+		interpolation: 2
+		values: {
+			__uuid: "63b5d55d-dbc8-4933-f4bd-a7184b8e8629"
+			data: "0d03b810-1e5b-899b-6f65-5f5a1e6e63ab"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "96bea523-0b07-91bf-ee07-ca58fdbae06b"
+		name: "primvars:J_Right_Hand"
+		interpolation: 2
+		values: {
+			__uuid: "bf65d178-38d9-9527-f2ba-0c6589b12cc8"
+			data: "d5b53626-182f-afaf-5c81-258ac66639c8"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "04722eac-c322-980f-2ad8-71649a3b899d"
+		name: "primvars:J_Right_HandIndex1"
+		interpolation: 2
+		values: {
+			__uuid: "a8806b90-bae3-7b76-3080-108abbf17676"
+			data: "472573cd-5315-91a4-0ff3-dd2974fdb8d0"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "b67e15e9-798a-f61f-300f-e680e88761a3"
+		name: "primvars:J_Right_HandIndex2"
+		interpolation: 2
+		values: {
+			__uuid: "a58aa418-3640-1783-21e4-07ec6c0c7be3"
+			data: "7a07158e-5abb-5344-ad43-0196e917ce66"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "25a2287e-bd11-8e57-90ab-96ff11b88dc8"
+		name: "primvars:J_Right_HandIndex3"
+		interpolation: 2
+		values: {
+			__uuid: "a3219985-0fb3-4f65-9bf0-ffd33336929a"
+			data: "84ecfcd3-addd-f8c0-501e-da94b3ab2960"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "0fa98439-b795-0826-e1fb-a5db27b3f5a4"
+		name: "primvars:J_Right_HandMiddle1"
+		interpolation: 2
+		values: {
+			__uuid: "6aaa911f-0670-25a9-3d7e-8249c09580ad"
+			data: "613401f3-d669-f229-82ba-90338802e87e"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "62497212-9db9-00f7-1231-421bf4d1c2a8"
+		name: "primvars:J_Right_HandMiddle2"
+		interpolation: 2
+		values: {
+			__uuid: "a022c230-99ef-64fc-748c-e59b7c34fb0a"
+			data: "f08e1827-a7a7-8aef-2e33-8725a6f84888"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "fb7b5068-55d1-9491-e98a-de777020399c"
+		name: "primvars:J_Right_HandMiddle3"
+		interpolation: 2
+		values: {
+			__uuid: "df3e13a5-470f-e181-2d43-124ed8361b07"
+			data: "1edbb5c8-1b06-6701-37e1-d6567c4edb1d"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "2c2f0af9-d43f-1efe-9dc4-a4ad4c95cdf5"
+		name: "primvars:J_Right_HandPinky1"
+		interpolation: 2
+		values: {
+			__uuid: "6b4384b5-040d-d286-9e72-5dc37b022040"
+			data: "a2d97f5f-ccfc-78f9-e550-0ccc5c1fd90e"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "185601ce-dd24-fe7b-6e37-a89f1df8e5b1"
+		name: "primvars:J_Right_HandPinky2"
+		interpolation: 2
+		values: {
+			__uuid: "b0b8211e-8660-4e38-06c9-2b8d579dc8a2"
+			data: "871ba57e-2efb-452f-155b-3399fce4edce"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "c583e559-ee55-c9f2-0fc1-edcef7f059c3"
+		name: "primvars:J_Right_HandPinky3"
+		interpolation: 2
+		values: {
+			__uuid: "f4620ea5-b3b6-92f8-3986-39b6a33e8261"
+			data: "c5972190-4e2d-04d9-6c8c-b2250119254f"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "c0a56f74-c775-fcfb-bba8-971f21f7e634"
+		name: "primvars:J_Right_HandRing1"
+		interpolation: 2
+		values: {
+			__uuid: "a9aea036-918e-a89a-adf2-5ebeafd7ed44"
+			data: "b0e2ca3e-4373-15b1-f637-b72d82c4d21d"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "22d20b98-ee45-9735-1769-0e472add1e11"
+		name: "primvars:J_Right_HandRing2"
+		interpolation: 2
+		values: {
+			__uuid: "d17f134c-a858-ec6a-610b-04a3a099686d"
+			data: "6dbb6c51-2873-3a36-de53-098fbf1b8042"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "ede862b1-99bf-0b94-7362-d059b27839b3"
+		name: "primvars:J_Right_HandRing3"
+		interpolation: 2
+		values: {
+			__uuid: "6501255d-ff0c-8dbf-1e7d-aae9055fa98f"
+			data: "0b6bf19d-89be-c75b-a861-3eff050bb928"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "c8dda8e9-fbc2-b2eb-4577-5520089858c5"
+		name: "primvars:J_Right_HandThumb1"
+		interpolation: 2
+		values: {
+			__uuid: "738109f5-8a80-cd47-58c3-d32ee00bd5f2"
+			data: "03fe9fe9-b776-3596-4a01-60d7fbedcd23"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "6af857ba-6615-9171-06ee-988a00d9d302"
+		name: "primvars:J_Right_HandThumb2"
+		interpolation: 2
+		values: {
+			__uuid: "082aac3d-01c1-38f1-f920-5c84f03de9a0"
+			data: "6b7856c5-5e56-1088-fab1-554828be1bc8"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "3544d2a3-a97a-5471-6d58-cfd12198304b"
+		name: "primvars:J_Right_HandThumb3"
+		interpolation: 2
+		values: {
+			__uuid: "9b2884a2-a836-7ea0-028a-5b30743fcaa2"
+			data: "dee957f9-5fc1-3ff0-1a22-61466738cf21"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "04ba9f8e-1fd1-03f6-3bd1-eb3270382e23"
+		name: "primvars:Root"
+		interpolation: 2
+		values: {
+			__uuid: "31a2d3fb-cbd1-254a-5d8b-f4b5c6da890d"
+			data: "25b5b67a-6304-1a02-2d8d-9be13ef36ee5"
+			format: 16777248
+			value_count: 937
+		}
+	}
+	{
+		__uuid: "c9297210-b871-9419-1944-0d8b6a3a86d1"
+		name: "primvars:st"
+		interpolation: 3
+		semantic: 5
+		values: {
+			__uuid: "7d04b86c-6158-6da3-da9b-e8378d719c4f"
+			data: "a5f5b30a-eb33-e948-6f22-43de8ac6048f"
+			format: 16779296
+			value_count: 3708
+		}
+	}
+	{
+		__uuid: "2d8e4006-8877-c8f8-52dc-1f3e9ed5a8da"
+		name: "normals"
+		interpolation: 3
+		semantic: 2
+		values: {
+			__uuid: "bdda7a90-7596-14a3-f9e4-7a28cb529254"
+			data: "20deaa50-e8fc-cb2f-6d5c-2e583ed9234a"
+			format: 16910368
+			value_count: 3708
+		}
+	}
+]
+subsets: [
+	{
+		__uuid: "71a79e5f-9fcf-f328-e6a6-d479af6480be"
+		name: "/root/Root_001/RightGlove_v001/locator2/right_hand_joint/SM_HandsVR_Male/Mesh/Hand_skin"
+		face_indices: "a9dbcb9f-ff2a-540e-f29e-d1e3da466c5e"
+		face_count: 839
+	}
+	{
+		__uuid: "401cec24-cb22-3670-d374-d14c8d5a4c1c"
+		name: "/root/Root_001/RightGlove_v001/locator2/right_hand_joint/SM_HandsVR_Male/Mesh/Hand_arrow"
+		index: 1
+		face_indices: "d190ce02-a0a7-4b19-e47c-da6cca676bb3"
+		face_count: 92
+	}
+]
+skinning_data: {
+	__uuid: "6a8c9f4e-ba59-60a2-7f39-089f0a2c04d8"
+	vertex_count: 937
+	influence_count_per_vertex: 12
+	indices: "fa926ac1-d237-1e38-d677-124d603d6672"
+	weights: "0597643a-2c82-f5db-65e5-1a325af2a8cd"
+	bind_transform: {
+		__uuid: "506f011e-146e-72fe-46da-39557c935c98"
+		xx: 2.2204460492503131e-16
+		xy: -1
+		xz: -1.4901159772762185e-07
+		yx: 2.2204463139481091e-16
+		yy: -1.4901159772762185e-07
+		yz: 1
+		zx: -1.0000003576278687
+		zy: -2.2204471080414972e-16
+		zz: 2.2204468433437011e-16
+		wy: -7.1054269340845282e-15
+		wz: -5.4019430706375715e-08
+	}
+}
+__asset_uuid: "9f9447b4-f71f-6b80-2d1d-be1244bf5153"

@@ -1,0 +1,136 @@
+__type: "tm_entity"
+__uuid: "a282e642-846b-c2f2-a826-f42b582e8b1b"
+name: "/"
+components: [
+	{
+		__type: "tm_transform_component"
+		__uuid: "f8681021-cc7a-4bd7-921a-4579e4f5818f"
+		local_position_double: {
+			__uuid: "db09e0f8-2bd5-a6df-efa5-9ebe55460185"
+		}
+		local_rotation: {
+			__uuid: "65ca49d0-c071-b6b4-4497-64579cbed5d7"
+		}
+		local_scale: {
+			__uuid: "75489dc2-9ecd-b916-a9cc-c314a21554e7"
+		}
+	}
+	{
+		__type: "tm_scene_tree_component"
+		__uuid: "8bd82028-b444-4e93-0dce-b3ca382c42a3"
+		nodes: "6c24ce3d-48c4-d791-15e5-f8a875dbfb11"
+		node_names: "1fdd1d8b-880f-c726-86c7-548548e976d3"
+	}
+]
+children: [
+	{
+		__uuid: "727654d2-fda5-3dc0-2f99-38ab89fb5526"
+		name: "Root"
+		components: [
+			{
+				__type: "tm_transform_component"
+				__uuid: "040ad317-d62c-f6f6-ad3c-c17fecd5b158"
+				local_position_double: {
+					__uuid: "2f39346a-8963-4192-601f-6215ace09b24"
+				}
+				local_rotation: {
+					__uuid: "dc8c7bb3-9552-a989-efe3-fcd1b31d26ec"
+				}
+				local_scale: {
+					__uuid: "85b3df0c-e6a8-3556-01ee-350c5e3ff3b7"
+				}
+			}
+		]
+		children: [
+			{
+				__uuid: "2eb3d001-3f75-e528-5077-e1084c3b6096"
+				name: "LeftGlove_v001"
+				components: [
+					{
+						__type: "tm_transform_component"
+						__uuid: "1ddfeb3a-1c7a-c085-7b54-dfd8dda4d9c2"
+						local_position_double: {
+							__uuid: "06729a1b-4648-9d46-e05a-803ab7d7142a"
+						}
+						local_rotation: {
+							__uuid: "ec08694b-a6b4-bdaa-503d-65f52c446579"
+						}
+						local_scale: {
+							__uuid: "ee5674f7-5ced-6016-c39b-577ae4215095"
+						}
+					}
+				]
+				children: [
+					{
+						__uuid: "20b4e88b-9f7e-8adb-1ef4-0f21c25b37f8"
+						name: "locator1"
+						components: [
+							{
+								__type: "tm_transform_component"
+								__uuid: "d919e6ff-c870-7e55-f194-7ccc2d198db5"
+								local_position_double: {
+									__uuid: "88893034-05f1-cc8c-b8b7-d6b22b781efd"
+								}
+								local_rotation: {
+									__uuid: "3a9ed3b7-986a-21ae-7161-77872552287c"
+								}
+								local_scale: {
+									__uuid: "c83a88ea-d09e-860f-17f5-c66796444ec7"
+									x: 0.0099999997764825821
+									y: 0.0099999997764825821
+									z: 0.0099999997764825821
+								}
+							}
+						]
+						children: [
+							{
+								__uuid: "0c166dc2-cd67-99f0-46ff-af9ed69a7f6b"
+								name: "left_hand_joint"
+								components: [
+									{
+										__type: "tm_transform_component"
+										__uuid: "bcea6e06-f86d-ced6-6504-49b7afdd2b2f"
+										local_position_double: {
+											__uuid: "3f31e6ba-70c1-0892-4428-dda1ba5b864d"
+										}
+										local_rotation: {
+											__uuid: "eea22b02-eccf-1285-fc84-cf67b45fde14"
+										}
+										local_scale: {
+											__uuid: "cbd22395-b972-a9ba-c64f-66254a5846f8"
+										}
+									}
+									{
+										__type: "tm_skeleton_component"
+										__uuid: "3649a35c-e29a-d137-096b-5ab117c6683e"
+										skeleton_hierarchy: "be08bdc0-e3b7-46ac-5540-064e179e2c75"
+									}
+									{
+										__type: "tm_model_component"
+										__uuid: "07425c4c-6979-6725-f6a2-cfdb6e21e112"
+										mesh_resource: {
+											__type: "tm_mesh_resource_reference"
+											__uuid: "f422aa31-e5ec-dd11-d8d1-9c5ac49b6382"
+											mesh_resource: "6a8f3704-9f01-ca17-9a81-aa7f397d7e2c"
+										}
+										materials: [
+											{
+												__uuid: "81cbbf77-c259-50af-83ee-1e5f8c940074"
+												name: "leftGloveMeshShape"
+												material: "6376d96a-13ea-a87b-ee13-902036a5a375"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
+__asset_uuid: "900e2165-de85-1b80-2cfb-1f68982be363"
+__asset_labels: [
+	"2cbc16a459dc040f"
+]

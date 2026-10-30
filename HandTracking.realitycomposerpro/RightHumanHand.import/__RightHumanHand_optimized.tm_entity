@@ -1,0 +1,91 @@
+__type: "tm_entity"
+__uuid: "839c8ce9-08ef-2375-fc24-db9fa9099747"
+name: "/"
+components: [
+	{
+		__type: "tm_transform_component"
+		__uuid: "e5146b2e-466a-39b1-e69b-3cb51bb48cf9"
+		local_position_double: {
+			__uuid: "fa4e547f-e722-db68-3dbb-769370b54dc0"
+		}
+		local_rotation: {
+			__uuid: "897e3f9e-63bf-dbc7-4572-8cc8c39e0cc0"
+		}
+		local_scale: {
+			__uuid: "265bf772-5031-0f46-63c1-951951a914bd"
+		}
+	}
+	{
+		__type: "tm_scene_tree_component"
+		__uuid: "abb25110-a4b4-c90d-6a7e-5f429d3ebeaf"
+		nodes: "33011c61-afc9-082a-2a4e-c16a82401ae9"
+		node_names: "da9f001d-227e-2d39-470a-6218253e8638"
+	}
+]
+children: [
+	{
+		__uuid: "b39d5aaa-67e4-569f-1f6a-10248283e146"
+		name: "Hand"
+		components: [
+			{
+				__type: "tm_transform_component"
+				__uuid: "22d05268-49bc-2199-42bc-3af3fffc3713"
+				local_position_double: {
+					__uuid: "2f68c95a-deb1-b810-2309-9ab263d80673"
+				}
+				local_rotation: {
+					__uuid: "e4afd085-7dd5-a512-ba20-919c70802013"
+				}
+				local_scale: {
+					__uuid: "be498872-d0a7-a7cc-9d47-58f7a003f3d1"
+				}
+			}
+		]
+		children: [
+			{
+				__uuid: "6308333c-e7b3-4ace-0c64-06b8dc9320ce"
+				name: "Skeleton"
+				components: [
+					{
+						__type: "tm_transform_component"
+						__uuid: "3dec943f-1687-5a97-e849-a6025011fdb9"
+						local_position_double: {
+							__uuid: "771c85e3-fae5-ccdf-a72e-0e8c56759f1f"
+						}
+						local_rotation: {
+							__uuid: "41fc054f-321d-56d9-60cd-15b220372608"
+						}
+						local_scale: {
+							__uuid: "6df23363-338d-d336-8aff-8b8e06760d4c"
+						}
+					}
+					{
+						__type: "tm_skeleton_component"
+						__uuid: "4093e5d6-aa29-7311-4d5a-69c89ac06ade"
+						skeleton_hierarchy: "afeaabef-247c-5c7a-9d05-ccf6a26b980e"
+					}
+					{
+						__type: "tm_model_component"
+						__uuid: "10bdfa54-35d1-c33e-2523-aebf647595be"
+						mesh_resource: {
+							__type: "tm_mesh_resource_reference"
+							__uuid: "c12405b6-7e28-5564-4efc-91e3652d126e"
+							mesh_resource: "d2f71ae5-3cda-21a1-c2ae-7619a9d7d4bd"
+						}
+						materials: [
+							{
+								__uuid: "2db6e146-e4eb-8b21-cfc3-0da0cec27f5e"
+								name: "Skin"
+								material: "65d1b9a1-e13b-76c7-84d6-4c1ac4cf04bd"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
+__asset_uuid: "322ef952-cdc6-90ae-e065-5c0a948bc301"
+__asset_labels: [
+	"2cbc16a459dc040f"
+]

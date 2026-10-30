@@ -1,0 +1,33 @@
+__type: "tm_texture"
+__uuid: "a035e71b-36c9-a657-e32d-2ea073497ead"
+source_filename: "../../../Profesional/Projects/Vision/SuperShootVision/SuperShootVision/3D Model/LeftGlove.usdz[0/LeftGlove_v001.usdz[0/Glove3_Albedo.png]]"
+source_texture: "161fac1f-d151-a1ae-2540-db564d21530d"
+transform: "6b5fd8e4eec2cf5b"
+transform_settings: {
+	__uuid: "67047ed6-86df-5ae5-9fd8-26e395dcccd5"
+	__prototype_type: "tm_creation_graph"
+	__prototype_uuid: "565f9a46-b719-d76a-7eaa-36e7faaddc5f"
+	graph: {
+		__uuid: "5c56afbc-86d2-91d3-f634-301b554fe443"
+		__prototype_type: "tm_graph"
+		__prototype_uuid: "31ddc72a-62d2-0d6e-83b1-392db7f56278"
+		interface: {
+			__uuid: "428b5d8d-0105-84df-5c01-01fbd222a4d8"
+			__prototype_type: "tm_graph_interface"
+			__prototype_uuid: "fafb8c6f-264f-0609-fc29-68fbe0d040c1"
+		}
+	}
+}
+color_space: {
+	__uuid: "eb1a114b-31b9-a6ba-3540-038a2c33a0df"
+	color_primary: 1
+	transfer_function: 2
+	color_model: 1
+}
+__asset_uuid: "9b9783da-5954-a19b-2e91-2c978f6a545b"
+__asset_labels: [
+	"e4bec38d8f73f423"
+]
+__asset_thumbnail: {
+	__uuid: "5c872209-3590-5414-f330-01a1af425755"
+}

@@ -1,0 +1,52 @@
+__type: "tm_mesh_descriptor"
+__uuid: "c47f49f9-06da-00b2-d57c-78b24cb83be9"
+vertex_count: 16522
+face_vertex_counts: {
+	__uuid: "941dda5f-507a-17e1-6402-57ab5ee845c6"
+	data: "c9b16252-0b50-d0a7-df92-27e972b87ea3"
+	format: 83886112
+	value_count: 21691
+}
+indices: {
+	__uuid: "130a12c2-a039-2768-7738-3df16e76fe18"
+	data: "65cd0121-bc01-000c-3230-f3821a6f6ee5"
+	format: 83886112
+	value_count: 76422
+}
+attributes: [
+	{
+		__uuid: "6e81d5b9-f7da-1d7c-f124-2f9ea862c38c"
+		name: "points"
+		interpolation: 2
+		semantic: 1
+		values: {
+			__uuid: "780d163f-bdc2-b6ba-fb24-8b2374e54ce9"
+			data: "48444504-11e0-090c-ea57-5f48f5a28bf1"
+			format: 16910368
+			value_count: 16522
+		}
+	}
+	{
+		__uuid: "fcc2b598-d01b-50b6-d629-4fa37c8ea0f7"
+		name: "normals"
+		interpolation: 2
+		semantic: 2
+		values: {
+			__uuid: "5e2f9500-bfb5-3f0d-f850-5bd12b7d041e"
+			data: "7d205862-9989-1755-7328-a0b1029eef0d"
+			format: 16910368
+			value_count: 16522
+		}
+	}
+]
+skinning_data: {
+	__uuid: "7db8c627-aa05-7406-a452-8520bfc0ed58"
+	vertex_count: 16522
+	influence_count_per_vertex: 4
+	indices: "8ad1e21e-6b4b-d058-fe92-df791e5a0720"
+	weights: "0e843671-b46f-38c1-074b-e67c6adb4141"
+	bind_transform: {
+		__uuid: "a228d2fd-293a-5035-3eb7-723efa60e3e2"
+	}
+}
+__asset_uuid: "e3a1c703-3db1-9b21-ed4c-4a0d026bfabd"

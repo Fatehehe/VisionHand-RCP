@@ -1,0 +1,22 @@
+__type: "tm_mesh_resource"
+__uuid: "e70775ad-4f56-3bb7-82b0-82c92604daad"
+models: [
+	{
+		__uuid: "aa29441a-335c-42e8-ec60-2cadfa43877e"
+		name: "Skin"
+		geometry: "fbb004fb-2c38-1de8-8b3b-2a9de266b49a"
+		bounds_min: {
+			__uuid: "8baa4eb1-f2ad-0012-383c-f0044f3d6bb0"
+			x: -0.019340254366397858
+			y: -0.076855011284351349
+			z: -0.2761828601360321
+		}
+		bounds_max: {
+			__uuid: "b5cb2267-7bf7-df2d-e6db-591315512b44"
+			x: 0.12399273365736008
+			y: 0.0095284618437290192
+			z: -0.073470093309879303
+		}
+	}
+]
+__asset_uuid: "0b923406-7a93-9cb7-2925-55c899fbf2fa"

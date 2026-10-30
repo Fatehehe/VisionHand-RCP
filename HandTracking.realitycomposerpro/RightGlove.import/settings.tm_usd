@@ -1,0 +1,70 @@
+__type: "tm_usd_asset"
+__uuid: "521c4d22-87c5-654d-2532-2e3c8a0c65fa"
+source_path: "../../../Profesional/Projects/Vision/SuperShootVision/SuperShootVision/3D Model/RightGlove.usdz"
+settings: [
+	{
+		__type: "tm_scene_optimizer"
+		__uuid: "1a0cc845-fe2b-56aa-4898-117cb401c8e0"
+		settings: {
+			__uuid: "67f3e41c-49d7-e128-8334-d1cd65f46558"
+			graph: {
+				__uuid: "09e2896b-19ad-f863-87ca-7bf952722dce"
+				interface: {
+					__uuid: "0a23efd9-3a55-25bf-af9c-37732c87a30b"
+					inputs: [
+						{
+							__uuid: "61eba7cf-4712-2d75-afa6-377c4f2952de"
+							name: "Merging Mode"
+							id: "scene_optimizer_settings__merging_mode"
+							value: {
+								__type: "tm_scene_optimizer_merging_mode"
+								__uuid: "11e0d8a4-df2d-fbb5-59f3-96bee9368cec"
+							}
+							public: true
+						}
+						{
+							__uuid: "dc423ef1-8536-53ac-9cc5-16517ad3d255"
+							name: "Entities to Keep"
+							id: "scene_optimizer_settings__keep_entities_list"
+							value: {
+								__type: "tm_scene_optimizer_keep_entities_list"
+								__uuid: "90f8eb36-0a08-ac3e-c74a-3161b5626730"
+							}
+							public: true
+						}
+					]
+				}
+			}
+		}
+		output: "21f5d0bf-666b-5f30-0083-19aeba834264"
+	}
+	{
+		__type: "tm_lod_generator"
+		__uuid: "a6b5fc3b-5ebc-9ec2-2270-3a645ca7f82e"
+	}
+	{
+		__type: "tm_usd_animation_settings"
+		__uuid: "5d6876b9-957b-4294-98fc-1d4e44f571a2"
+	}
+]
+pro_settings: [
+	{
+		__type: "tm_usd_purpose_settings"
+		__uuid: "bff36f1c-0a75-cd71-f9c9-ac7a0ebc4850"
+	}
+	{
+		__type: "tm_usd_dev_settings"
+		__uuid: "cd31fc47-7086-5f10-6a08-1e1458ac06a9"
+		mesh_creation_graph: "feefd623-b26a-6155-97b0-2dd807e0e1c3"
+	}
+]
+variants: [
+	{
+		__uuid: "4c2359d1-8e22-7ef4-f665-42b13727c5ee"
+		name: "Default"
+		root_entity: "6c7dab39-46dd-0884-be28-03712e84a997"
+		proxy_entity: "a4ec39cf-75d7-7957-dd00-1a8fc1d6f67c"
+		session: "e6284146-ad49-5b93-1359-947f5b99b213"
+	}
+]
+__asset_uuid: "e2e0c98b-03f5-77f3-8980-77d8291943a6"

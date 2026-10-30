@@ -1,0 +1,70 @@
+__type: "tm_usd_asset"
+__uuid: "52144f08-7dec-e4e8-4d62-60fa7a4d0641"
+source_path: "../VisionHandTracking/VisionHandTracking/Resources/LeftHumanHand.usdc"
+settings: [
+	{
+		__type: "tm_scene_optimizer"
+		__uuid: "086f5e2b-0fba-4855-38cc-a2904565d480"
+		settings: {
+			__uuid: "aeba55ff-eb68-9562-c632-e9e849df72c4"
+			graph: {
+				__uuid: "be983e80-cc01-03cf-7cdb-bbc3e2651429"
+				interface: {
+					__uuid: "29813915-d7cd-3deb-784e-2b5b4e53398d"
+					inputs: [
+						{
+							__uuid: "80ad2c6f-fbc1-97f7-c869-e428e1532836"
+							name: "Merging Mode"
+							id: "scene_optimizer_settings__merging_mode"
+							value: {
+								__type: "tm_scene_optimizer_merging_mode"
+								__uuid: "e76af25e-e81f-3fa6-3474-3a84a568355f"
+							}
+							public: true
+						}
+						{
+							__uuid: "9964f38a-e241-f206-5e48-dc5d6159845d"
+							name: "Entities to Keep"
+							id: "scene_optimizer_settings__keep_entities_list"
+							value: {
+								__type: "tm_scene_optimizer_keep_entities_list"
+								__uuid: "5c779af6-90bf-e574-2795-ef7440b6c458"
+							}
+							public: true
+						}
+					]
+				}
+			}
+		}
+		output: "5fe07d99-294e-3dcf-e7ec-846997d40c74"
+	}
+	{
+		__type: "tm_lod_generator"
+		__uuid: "0eaf6f67-57c3-f5b6-33b4-71ad1c9c1a3b"
+	}
+	{
+		__type: "tm_usd_animation_settings"
+		__uuid: "bcb53f38-fef3-5ff6-64f6-5d7acea284a7"
+	}
+]
+pro_settings: [
+	{
+		__type: "tm_usd_purpose_settings"
+		__uuid: "1989fcae-43aa-2e60-ac6a-31cac0dc9727"
+	}
+	{
+		__type: "tm_usd_dev_settings"
+		__uuid: "e2ffa30f-3974-8ae0-976b-7151a0af2f64"
+		mesh_creation_graph: "feefd623-b26a-6155-97b0-2dd807e0e1c3"
+	}
+]
+variants: [
+	{
+		__uuid: "e179db6a-8c3b-fe7a-d1d7-25a8787d6992"
+		name: "Default"
+		root_entity: "4a847ac6-701b-c709-8b8a-a3aa1ab88ecd"
+		proxy_entity: "16ed765b-2cb7-66d8-699d-aec4b4ee3209"
+		session: "e2f73653-34fd-5a56-7dec-5edca552f312"
+	}
+]
+__asset_uuid: "eccb2743-957d-067c-656b-3715d711da3c"

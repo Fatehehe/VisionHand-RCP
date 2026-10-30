@@ -1,0 +1,22 @@
+__type: "tm_mesh_resource"
+__uuid: "ccf65750-03f3-db49-4b35-f4bc92b2cf13"
+models: [
+	{
+		__uuid: "3b2704df-3469-d2ee-bff2-513dd883ad5d"
+		name: "leftGloveMeshShape"
+		geometry: "eededd91-20cd-75eb-6e32-6f657156991c"
+		bounds_min: {
+			__uuid: "156b4a3b-355a-c08c-6a8a-f988d3cde02f"
+			x: -23.770618438720703
+			y: 4.1038060188293457
+			z: 6.0054397583007813
+		}
+		bounds_max: {
+			__uuid: "e699bf01-0b2e-2d34-65e2-3d4e709548f0"
+			x: -9.4726753234863281
+			y: 29.465892791748047
+			z: 13.093555450439453
+		}
+	}
+]
+__asset_uuid: "2b9ebb13-5552-cead-6bfe-f5f52ca629db"

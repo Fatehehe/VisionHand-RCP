@@ -1,0 +1,59 @@
+__type: "tm_settings_owner"
+__uuid: "7cc4f953-e909-bf92-8376-a2e375dcc5eb"
+settings: [
+	{
+		__uuid: "a122277c-8cdf-2600-ce56-d9418b8118c6"
+		object: {
+			__type: "tm_global_rendering_settings"
+			__uuid: "68b398ae-fe11-1c5c-258e-b2d39585ee32"
+		}
+	}
+	{
+		__uuid: "13b6d656-194b-eba0-ad88-3a8cbbcb5660"
+		object: {
+			__type: "tm_build_settings"
+			__uuid: "e0917877-b455-c60d-8db5-30ea99d28a2c"
+			xcode_directory: ""
+			plugin_directory: ""
+			build_configuration: "Debug"
+		}
+	}
+	{
+		__uuid: "d5242321-041d-27e5-e541-33b902e5b669"
+		object: {
+			__type: "tm_cloth_project_settings"
+			__uuid: "3051877f-6e80-a581-c900-1fd3dc5c420d"
+			simulation: {
+				__uuid: "a7a663b1-2753-7ab8-e2e1-e82ec8cf6082"
+				is_global: true
+				gravity: {
+					__uuid: "38993c0f-a1f9-0349-10ce-011dafbbd33c"
+					y: -9.8100004196166992
+				}
+				wind: {
+					__uuid: "7d0be110-65e9-21bf-5584-25f1175c9901"
+				}
+			}
+		}
+	}
+	{
+		__uuid: "d1bebf71-9ef9-442f-a24a-82519e9477db"
+		object: {
+			__type: "tm_camera_component"
+			__uuid: "3609e015-06f6-f6c5-6ba1-5e1b06e0846d"
+			sensor_size: {
+				__uuid: "90f4a52e-939e-ec58-2c67-d18f3f99d361"
+				x: 36
+				y: 24
+			}
+		}
+	}
+	{
+		__uuid: "d462253e-5145-8f97-9673-e5c951f40e3e"
+		object: {
+			__type: "tm_lightmap_settings"
+			__uuid: "31f3a404-2f48-455d-909a-c8a965d24386"
+		}
+	}
+]
+__asset_uuid: "38233126-5745-143b-2262-95ebe6a9ab1d"

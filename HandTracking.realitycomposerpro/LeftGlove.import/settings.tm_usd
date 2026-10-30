@@ -1,0 +1,70 @@
+__type: "tm_usd_asset"
+__uuid: "bb0be263-4162-6be4-2706-8c8b87f8aa7c"
+source_path: "../../../Profesional/Projects/Vision/SuperShootVision/SuperShootVision/3D Model/LeftGlove.usdz"
+settings: [
+	{
+		__type: "tm_scene_optimizer"
+		__uuid: "69fc1446-b9d1-414e-19ea-189235b0d692"
+		settings: {
+			__uuid: "3ee3b270-1177-3bd1-fe00-859c3bbbb765"
+			graph: {
+				__uuid: "c1e8c1c2-355f-943d-ae0b-89d2384d3ed7"
+				interface: {
+					__uuid: "4a80c51e-276f-cd3c-bc44-bc3248aa2c46"
+					inputs: [
+						{
+							__uuid: "1ba2d79b-0c36-49b3-d354-f3667b3b5039"
+							name: "Merging Mode"
+							id: "scene_optimizer_settings__merging_mode"
+							value: {
+								__type: "tm_scene_optimizer_merging_mode"
+								__uuid: "8983f6f4-a8bf-a878-776a-d81c4d71216c"
+							}
+							public: true
+						}
+						{
+							__uuid: "2ff79823-d5eb-f3e3-cd21-c8572f4b78e5"
+							name: "Entities to Keep"
+							id: "scene_optimizer_settings__keep_entities_list"
+							value: {
+								__type: "tm_scene_optimizer_keep_entities_list"
+								__uuid: "b1d7c759-80a7-fae6-cce1-dfe262ca470c"
+							}
+							public: true
+						}
+					]
+				}
+			}
+		}
+		output: "e2f44a0b-c72b-fa6f-2d8d-66d1b8e99c86"
+	}
+	{
+		__type: "tm_lod_generator"
+		__uuid: "335809ea-2571-bc01-f4a6-7187ac8dbfcb"
+	}
+	{
+		__type: "tm_usd_animation_settings"
+		__uuid: "7231b02c-60d3-4a4c-5b12-e67049026a61"
+	}
+]
+pro_settings: [
+	{
+		__type: "tm_usd_purpose_settings"
+		__uuid: "47cbbbd5-3cf0-19f6-0a9a-80f497cd21a4"
+	}
+	{
+		__type: "tm_usd_dev_settings"
+		__uuid: "c077fda5-a382-5cfc-d573-d6279b5d69b5"
+		mesh_creation_graph: "feefd623-b26a-6155-97b0-2dd807e0e1c3"
+	}
+]
+variants: [
+	{
+		__uuid: "7497ac38-ea41-eae0-3c9a-2c18e7456f32"
+		name: "Default"
+		root_entity: "1f4ab31c-2754-b28f-f09c-d7baa7d36206"
+		proxy_entity: "3ee39038-5492-8bb4-5b8b-5923346619f8"
+		session: "0e531209-65eb-fda7-3e83-02e3f13d3712"
+	}
+]
+__asset_uuid: "fd86ef9b-59da-cfb4-274e-2ac954a9b235"

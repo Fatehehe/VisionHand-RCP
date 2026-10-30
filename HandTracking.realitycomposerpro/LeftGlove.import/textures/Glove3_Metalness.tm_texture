@@ -1,0 +1,31 @@
+__type: "tm_texture"
+__uuid: "920e8299-3e80-e5c3-3197-a329a822ab6b"
+source_filename: "../../../Profesional/Projects/Vision/SuperShootVision/SuperShootVision/3D Model/LeftGlove.usdz[0/LeftGlove_v001.usdz[0/Glove3_Metalness.png]]"
+source_texture: "fe736d4c-b571-1829-f3ad-121067a881b1"
+transform: "dbdb0d4a0b9144f5"
+transform_settings: {
+	__uuid: "297f8030-db46-4345-00c7-5ee8c8d15aa3"
+	__prototype_type: "tm_creation_graph"
+	__prototype_uuid: "9eee8001-52a4-671e-193e-13b33cb6c233"
+	graph: {
+		__uuid: "ab7329ac-24cd-816c-017e-f13a07326b9d"
+		__prototype_type: "tm_graph"
+		__prototype_uuid: "311e84c2-053c-4beb-0569-d8aac8083cd2"
+		interface: {
+			__uuid: "9d6d2d81-efea-3138-6cd5-227bbe27ff4a"
+			__prototype_type: "tm_graph_interface"
+			__prototype_uuid: "80ed42b0-003f-1504-072c-3ea14241dccf"
+		}
+	}
+}
+color_space: {
+	__uuid: "1172e05e-5e17-8bf0-b488-e271651c8d7f"
+	transfer_function: 1
+}
+__asset_uuid: "7e66a605-f62e-3bc9-a1c5-1698316dab7b"
+__asset_labels: [
+	"e4bec38d8f73f423"
+]
+__asset_thumbnail: {
+	__uuid: "20bc2a8c-aac0-3aa7-f46f-0ebc5b9cff97"
+}

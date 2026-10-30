@@ -1,0 +1,166 @@
+__type: "tm_mesh_resource"
+__uuid: "6a8f3704-9f01-ca17-9a81-aa7f397d7e2c"
+instances: [
+	{
+		__uuid: "7774a4e8-bd97-3d9b-d77e-d907517f2890"
+		model: "d7dffc52-7098-ade7-50c0-3633fdb7a7a5"
+		transform: {
+			__uuid: "cb615b8a-acfc-71e5-e761-91db38fecc79"
+			position: {
+				__uuid: "1a22df5a-d932-062d-490e-d6947977e131"
+			}
+			rotation: {
+				__uuid: "2976bef8-1a30-9855-725b-fbd72f9f532d"
+			}
+			scale: {
+				__uuid: "2a22ad21-e79d-44ac-9fc5-f4c8267a0a21"
+			}
+		}
+	}
+]
+models: [
+	{
+		__uuid: "d7dffc52-7098-ade7-50c0-3633fdb7a7a5"
+		name: "leftGloveMeshShape"
+		geometry: "eededd91-20cd-75eb-6e32-6f657156991c"
+		skinning_data: {
+			__uuid: "d52fe50c-08ca-0b45-d4c0-b4b3edc88d01"
+			skelton_name: "Root/LeftGlove_v001/locator1/left_hand_joint"
+			bones: [
+				{
+					__uuid: "9e3d72cc-3969-b327-ed5a-76656d90c70a"
+					name: "left_hand_joint"
+				}
+				{
+					__uuid: "778a74fc-8952-3cdf-f66c-d77e66df91e3"
+					bone_idx: 1
+					name: "left_hand_joint/left_handThumbStart_joint"
+				}
+				{
+					__uuid: "abc59897-4917-53d4-5d18-98365a6f3fc8"
+					bone_idx: 2
+					name: "left_hand_joint/left_handThumbStart_joint/left_handThumb_1_joint"
+				}
+				{
+					__uuid: "67e88b74-b1ca-f7ad-357b-78dc72ba23bf"
+					bone_idx: 3
+					name: "left_hand_joint/left_handThumbStart_joint/left_handThumb_1_joint/left_handThumb_2_joint"
+				}
+				{
+					__uuid: "31df8e6e-2649-5b2d-cffa-0863f15c2aa5"
+					bone_idx: 4
+					name: "left_hand_joint/left_handThumbStart_joint/left_handThumb_1_joint/left_handThumb_2_joint/left_handThumbEnd_joint"
+				}
+				{
+					__uuid: "ba3c34ae-a992-89b0-7b04-4d4ce2098fee"
+					bone_idx: 5
+					name: "left_hand_joint/left_handIndexStart_joint"
+				}
+				{
+					__uuid: "9ccb5013-7464-1c60-c0e9-71082ee6f675"
+					bone_idx: 6
+					name: "left_hand_joint/left_handIndexStart_joint/left_handIndex_1_joint"
+				}
+				{
+					__uuid: "83073fed-f4e3-6061-168f-cb068a1b2810"
+					bone_idx: 7
+					name: "left_hand_joint/left_handIndexStart_joint/left_handIndex_1_joint/left_handIndex_2_joint"
+				}
+				{
+					__uuid: "bcee11f1-7109-a300-2507-fb1f73b08916"
+					bone_idx: 8
+					name: "left_hand_joint/left_handIndexStart_joint/left_handIndex_1_joint/left_handIndex_2_joint/left_handIndex_3_joint"
+				}
+				{
+					__uuid: "72504fe3-7784-9645-9edd-9c68b49f0c0a"
+					bone_idx: 9
+					name: "left_hand_joint/left_handIndexStart_joint/left_handIndex_1_joint/left_handIndex_2_joint/left_handIndex_3_joint/left_handIndexEnd_joint"
+				}
+				{
+					__uuid: "5ce0caa0-6531-0303-13e3-df06d7eb858c"
+					bone_idx: 10
+					name: "left_hand_joint/left_handMidStart_joint"
+				}
+				{
+					__uuid: "74bf6a9b-81a9-e53b-12dd-f6e42757ad81"
+					bone_idx: 11
+					name: "left_hand_joint/left_handMidStart_joint/left_handMid_1_joint"
+				}
+				{
+					__uuid: "5ff6b3d7-d6d2-ea90-002e-38f3164164c4"
+					bone_idx: 12
+					name: "left_hand_joint/left_handMidStart_joint/left_handMid_1_joint/left_handMid_2_joint"
+				}
+				{
+					__uuid: "a64a4a5d-aa99-297c-1051-f784351d24ef"
+					bone_idx: 13
+					name: "left_hand_joint/left_handMidStart_joint/left_handMid_1_joint/left_handMid_2_joint/left_handMid_3_joint"
+				}
+				{
+					__uuid: "adf45d47-bc92-8a06-5278-f5164061812f"
+					bone_idx: 14
+					name: "left_hand_joint/left_handMidStart_joint/left_handMid_1_joint/left_handMid_2_joint/left_handMid_3_joint/left_handMidEnd_joint"
+				}
+				{
+					__uuid: "2d25d018-8751-c912-0829-ec66b44e4d08"
+					bone_idx: 15
+					name: "left_hand_joint/left_handRingStart_joint"
+				}
+				{
+					__uuid: "e7820fbc-88d9-481e-3529-009cd057735c"
+					bone_idx: 16
+					name: "left_hand_joint/left_handRingStart_joint/left_handRing_1_joint"
+				}
+				{
+					__uuid: "d06ab88a-3e26-c237-d807-a4bc872ce4d6"
+					bone_idx: 17
+					name: "left_hand_joint/left_handRingStart_joint/left_handRing_1_joint/left_handRing_2_joint"
+				}
+				{
+					__uuid: "d6bf52f0-b5b2-6bf9-249a-272474231b0c"
+					bone_idx: 18
+					name: "left_hand_joint/left_handRingStart_joint/left_handRing_1_joint/left_handRing_2_joint/left_handRing_3_joint"
+				}
+				{
+					__uuid: "b7f1fe33-97ff-19d3-7b5b-4fffde6fc651"
+					bone_idx: 19
+					name: "left_hand_joint/left_handRingStart_joint/left_handRing_1_joint/left_handRing_2_joint/left_handRing_3_joint/left_handRingEnd_joint"
+				}
+				{
+					__uuid: "b53cd49e-d75b-3066-e2c1-970d033df69a"
+					bone_idx: 20
+					name: "left_hand_joint/left_handPinkyStart_joint"
+				}
+				{
+					__uuid: "c42e7b2f-7135-22cf-7132-ac51de35fa01"
+					bone_idx: 21
+					name: "left_hand_joint/left_handPinkyStart_joint/left_handPinky_1_joint"
+				}
+				{
+					__uuid: "d724b775-1e44-d84a-4826-7eda48aadf20"
+					bone_idx: 22
+					name: "left_hand_joint/left_handPinkyStart_joint/left_handPinky_1_joint/left_handPinky_2_joint"
+				}
+				{
+					__uuid: "d37d04d5-3998-97e6-60d4-280c060d97e5"
+					bone_idx: 23
+					name: "left_hand_joint/left_handPinkyStart_joint/left_handPinky_1_joint/left_handPinky_2_joint/left_handPinky_3_joint"
+				}
+				{
+					__uuid: "38a37c48-329a-7e71-a6bc-879aca614c02"
+					bone_idx: 24
+					name: "left_hand_joint/left_handPinkyStart_joint/left_handPinky_1_joint/left_handPinky_2_joint/left_handPinky_3_joint/left_handPinkyEnd_joint"
+				}
+				{
+					__uuid: "9c70415f-c7a9-d285-14fc-367c322fb67f"
+					bone_idx: 25
+					name: "left_hand_joint/left_hand_twist_2_joint"
+				}
+			]
+		}
+	}
+]
+skeletons: [
+	"be08bdc0-e3b7-46ac-5540-064e179e2c75"
+]
+__asset_uuid: "da38e9b6-d2ff-734d-5133-368d4f04f0e9"

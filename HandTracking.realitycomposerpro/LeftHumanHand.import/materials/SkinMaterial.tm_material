@@ -1,0 +1,365 @@
+__type: "tm_material"
+__uuid: "50b99cd9-2811-9d6f-a1ec-d256c647eadb"
+shader: {
+	__uuid: "d58df653-bfba-92b3-54b5-cdee64b74366"
+	asset_path: "engine:pbr.rematerialdefinition"
+}
+shader_graph: {
+	__uuid: "48963d60-d469-384e-e52b-ebac45e2bd96"
+	graph: {
+		__uuid: "f4253e4b-b239-d11c-945a-8465e99ff7e2"
+		nodes: [
+			{
+				__uuid: "c5310fc2-c59f-1e51-20d2-9e6e4308a156"
+				type: "tm_output_node"
+				position: {
+					__uuid: "dbb4252d-b8b1-6410-ad46-b51a54633cb2"
+					x: -125
+					y: 120
+				}
+			}
+			{
+				__uuid: "41f34463-7430-8266-9a52-e12511cbf614"
+				type: "ND_UsdPreviewSurface_surfaceshader"
+				label: "Preview"
+				position: {
+					__uuid: "3498b95a-d1a0-fab1-417b-f259b92f1359"
+					x: 125
+				}
+			}
+		]
+		connections: [
+			{
+				__uuid: "1d93b225-3342-60dc-651e-deda8340e32e"
+				from_node: "41f34463-7430-8266-9a52-e12511cbf614"
+				to_node: "c5310fc2-c59f-1e51-20d2-9e6e4308a156"
+				from_connector_hash: "685a9889b8402b60"
+				to_connector_hash: "891f23467e3e5272"
+			}
+		]
+		data: [
+			{
+				__uuid: "14bf0b07-8f58-6474-24bf-27fc590dcf00"
+				to_node: "41f34463-7430-8266-9a52-e12511cbf614"
+				to_connector_hash: "cb836048226639e6"
+				data: {
+					__type: "tm_color_aces2065_rgb"
+					__uuid: "6fc09179-9247-55b6-46a5-b4f8a5807830"
+					r: 0.43500027060508728
+					g: 0.33621677756309509
+					b: 0.2209310382604599
+				}
+			}
+			{
+				__uuid: "0f3c45fe-dba3-d30b-8e5f-4a9b24a0a3be"
+				to_node: "41f34463-7430-8266-9a52-e12511cbf614"
+				to_connector_hash: "ea2298b545b7e617"
+			}
+		]
+		interface: {
+			__uuid: "48dafadb-283a-bea9-0040-5b811143ecc2"
+			inputs: [
+				{
+					__uuid: "ae828e8f-6438-2a58-3718-ef8f580b0931"
+					name: "Inputs"
+					display_name: "Inputs"
+					id: "input__graph_13405614270062146570__1"
+					type_hash: "0db5d3820f4ba9f8"
+					public: true
+				}
+				{
+					__uuid: "e3336a5e-99ab-9fc9-afa8-a27695042d89"
+					name: "textureBaseColor"
+					display_name: "Base Color Texture"
+					id: "input__graph_13405614270062146570__2"
+					type_hash: "c0f0b0d37d0844de"
+					value: {
+						__type: "tm_material_resource"
+						__uuid: "fcec7c76-387e-51be-8425-8cb0df8107be"
+						name: "textureBaseColor"
+					}
+					public: true
+					order: 1
+				}
+				{
+					__uuid: "ab69ecb9-1b62-9be2-6031-b4fbd53e7c46"
+					name: "baseColorTint"
+					display_name: "Base Color Tint"
+					id: "input__graph_13405614270062146570__3"
+					type_hash: "e319561b83260698"
+					value: {
+						__type: "tm_color_aces2065_rgba"
+						__uuid: "b9ef865e-28a2-6605-d58c-a58480f05db8"
+						r: 0.43500027060508728
+						g: 0.33621677756309509
+						b: 0.2209310382604599
+					}
+					public: true
+					order: 2
+				}
+				{
+					__uuid: "4e92006e-d0ad-b204-f270-14d64fbf3ba2"
+					name: "textureRoughness"
+					display_name: "Roughness Texture"
+					id: "input__graph_13405614270062146570__4"
+					type_hash: "c0f0b0d37d0844de"
+					value: {
+						__type: "tm_material_resource"
+						__uuid: "b592af7a-4ae5-5210-468c-a00adf9e920e"
+						name: "textureRoughness"
+					}
+					public: true
+					order: 3
+				}
+				{
+					__uuid: "000886f1-f441-37cf-cf14-c165f6100c12"
+					name: "roughnessScale"
+					display_name: "Roughness Scale"
+					id: "input__graph_13405614270062146570__5"
+					type_hash: "6d0a4e744c45523b"
+					value: {
+						__type: "tm_float"
+						__uuid: "43ff3a9f-e383-5883-bd8c-cb78ace6eff5"
+						float: 0.56999999284744263
+					}
+					public: true
+					order: 4
+				}
+				{
+					__uuid: "3db0b6aa-5419-eb6d-130f-43a70f8bfc98"
+					name: "textureMetallic"
+					display_name: "Metallic Texture"
+					id: "input__graph_13405614270062146570__6"
+					type_hash: "c0f0b0d37d0844de"
+					value: {
+						__type: "tm_material_resource"
+						__uuid: "70533e87-8efa-8006-b17d-a56e547912a9"
+						name: "textureMetallic"
+					}
+					public: true
+					order: 5
+				}
+				{
+					__uuid: "36f17947-821a-b4d6-8cb1-ea10a0447a12"
+					name: "metallicScale"
+					display_name: "Metallic Scale"
+					id: "input__graph_13405614270062146570__7"
+					type_hash: "6d0a4e744c45523b"
+					value: {
+						__type: "tm_float"
+						__uuid: "c0502883-af97-ba38-2c24-ea906b54ed9a"
+					}
+					public: true
+					order: 6
+				}
+				{
+					__uuid: "0f09f8ed-da58-09d6-07ca-7dbe719130aa"
+					name: "textureNormal"
+					display_name: "Normal Texture"
+					id: "input__graph_13405614270062146570__8"
+					type_hash: "c0f0b0d37d0844de"
+					value: {
+						__type: "tm_material_resource"
+						__uuid: "ece88490-1beb-ff82-5c9b-737ecd17c49d"
+						name: "textureNormal"
+					}
+					public: true
+					order: 7
+				}
+				{
+					__uuid: "67d6c03c-f115-95e0-f5f3-0c3691b294a8"
+					name: "Inputs"
+					display_name: "Inputs"
+					id: "input__graph_13405614270062146570__9"
+					type_hash: "b7138700efca73f2"
+					public: true
+					order: 8
+				}
+				{
+					__uuid: "2b87df7f-ea0d-0373-fd84-0d7a3be7f5d9"
+					name: "Advanced"
+					display_name: "Advanced"
+					id: "input__graph_13405614270062146570__10"
+					type_hash: "0db5d3820f4ba9f8"
+					public: true
+					order: 9
+				}
+				{
+					__uuid: "912a45f8-5f37-7df9-1d94-3b146e838bf2"
+					name: "textureClearcoat"
+					display_name: "Clearcoat Texture"
+					id: "input__graph_13405614270062146570__11"
+					type_hash: "c0f0b0d37d0844de"
+					value: {
+						__type: "tm_material_resource"
+						__uuid: "aba25540-be0a-1052-c50c-25811afb8d99"
+						name: "textureClearcoat"
+					}
+					public: true
+					order: 10
+				}
+				{
+					__uuid: "fbfb7630-80fc-ce77-6608-4023db07d87f"
+					name: "clearcoatScale"
+					display_name: "Clearcoat Scale"
+					id: "input__graph_13405614270062146570__12"
+					type_hash: "6d0a4e744c45523b"
+					value: {
+						__type: "tm_float"
+						__uuid: "11c2ad97-225d-4025-58e9-ca1919b070d2"
+					}
+					public: true
+					order: 11
+				}
+				{
+					__uuid: "1e751b89-4616-1070-845e-ac9d9558fae3"
+					name: "textureClearcoatRoughness"
+					display_name: "Clearcoat Roughness Texture"
+					id: "input__graph_13405614270062146570__13"
+					type_hash: "c0f0b0d37d0844de"
+					value: {
+						__type: "tm_material_resource"
+						__uuid: "0a417930-31cc-4baf-530b-3adba6780789"
+						name: "textureClearcoatRoughness"
+					}
+					public: true
+					order: 12
+				}
+				{
+					__uuid: "0c7c781e-2c1f-1585-9f27-bf9655d3e9a3"
+					name: "clearcoatRoughnessScale"
+					display_name: "Clearcoat Roughness Scale"
+					id: "input__graph_13405614270062146570__14"
+					type_hash: "6d0a4e744c45523b"
+					value: {
+						__type: "tm_float"
+						__uuid: "a5e7d661-956b-63fc-55c8-446568ba17d5"
+						float: 0.0099999997764825821
+					}
+					public: true
+					order: 13
+				}
+				{
+					__uuid: "7426e8c2-3fb2-2954-8c68-1a6dd9c73d86"
+					name: "textureEmissive"
+					display_name: "Emissive Texture"
+					id: "input__graph_13405614270062146570__15"
+					type_hash: "c0f0b0d37d0844de"
+					value: {
+						__type: "tm_material_resource"
+						__uuid: "8ca30f1e-69fc-9660-0ffd-596b8b6d61f0"
+						name: "textureEmissive"
+					}
+					public: true
+					order: 14
+				}
+				{
+					__uuid: "70e28ebf-bc9f-520c-5a22-89253ab95dde"
+					name: "emissiveColor"
+					display_name: "Emissive Color"
+					id: "input__graph_13405614270062146570__16"
+					type_hash: "41bbffb01e9d905f"
+					value: {
+						__type: "tm_color_aces2065_rgb"
+						__uuid: "33ebe6dd-7a74-8ed2-349d-7b752d138073"
+						r: 0
+						g: 0
+						b: 0
+					}
+					public: true
+					order: 15
+				}
+				{
+					__uuid: "9d944850-5c00-8fe0-1d78-a8ed9c0f2fc9"
+					name: "textureSpecular"
+					display_name: "Specular Texture"
+					id: "input__graph_13405614270062146570__17"
+					type_hash: "c0f0b0d37d0844de"
+					value: {
+						__type: "tm_material_resource"
+						__uuid: "d9d017af-1478-ba23-b52d-ce6867cb89da"
+						name: "textureSpecular"
+					}
+					public: true
+					order: 16
+				}
+				{
+					__uuid: "ea804b1e-a380-9bdc-118b-397d58777d13"
+					name: "specularScale"
+					display_name: "Specular Scale"
+					id: "input__graph_13405614270062146570__18"
+					type_hash: "6d0a4e744c45523b"
+					value: {
+						__type: "tm_float"
+						__uuid: "a2acce4d-e229-f5d8-2a69-8c36d1098a42"
+						float: 0.50000005960464478
+					}
+					public: true
+					order: 17
+				}
+				{
+					__uuid: "08208eac-f9cc-3cf5-d71e-1923921add25"
+					name: "textureAmbientOcclusion"
+					display_name: "Ambient Occlusion Texture"
+					id: "input__graph_13405614270062146570__19"
+					type_hash: "c0f0b0d37d0844de"
+					value: {
+						__type: "tm_material_resource"
+						__uuid: "cc2d58e0-c25e-090e-a68c-15edb0c118b5"
+						name: "textureAmbientOcclusion"
+					}
+					public: true
+					order: 18
+				}
+				{
+					__uuid: "c6ad16fc-5a73-fe7c-1a8e-90e843d2491a"
+					name: "blending"
+					display_name: "Blending"
+					id: "input__graph_13405614270062146570__20"
+					type_hash: "7bdc1e8cf3264b47"
+					value: {
+						__type: "tm_material_blending"
+						__uuid: "7b5a9605-a257-f126-7581-f1e4b0faee0c"
+					}
+					public: true
+					order: 19
+				}
+				{
+					__uuid: "297c2ede-c197-d24a-5e0c-ea4b1968400d"
+					name: "opacityThreshold"
+					display_name: "Opacity Threshold"
+					id: "input__graph_13405614270062146570__21"
+					type_hash: "6d0a4e744c45523b"
+					value: {
+						__type: "tm_float"
+						__uuid: "0ee76e65-d0a9-d832-f50e-752b8c2fbef6"
+					}
+					public: true
+					order: 20
+					metadata: [
+						{
+							__type: "tm_graph_optional_input_metadata"
+							__uuid: "0084c0ab-cbef-039d-ce60-3edcaf7d6153"
+						}
+					]
+				}
+				{
+					__uuid: "fefcef65-0b5d-dba4-bc0e-933815998455"
+					name: "Advanced"
+					display_name: "Advanced"
+					id: "input__graph_13405614270062146570__22"
+					type_hash: "b7138700efca73f2"
+					public: true
+					order: 21
+				}
+			]
+		}
+	}
+}
+descriptor: {
+	__uuid: "78e84ff6-4a9d-efbd-8436-a42c75cbf229"
+}
+__asset_uuid: "91646dd0-b511-d0f6-f45b-2a6e0da55172"
+__asset_thumbnail: {
+	__uuid: "57b672cf-77a8-6c07-e8b6-8f138ba49109"
+}

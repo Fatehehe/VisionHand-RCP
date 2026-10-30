@@ -1,0 +1,672 @@
+__type: "tm_mesh_descriptor"
+__uuid: "1f1ce506-28b9-e04c-1cb8-ba261c723a2b"
+vertex_count: 4090
+face_vertex_counts: {
+	__uuid: "e6ecec27-2a05-27b7-434f-ddb3b46dd739"
+	data: "aaa823f5-c1df-fb28-2015-5af39e5bbf87"
+	format: 83886112
+	value_count: 4088
+}
+indices: {
+	__uuid: "e93f5c78-32bc-f2ca-fddd-4d41e25787a2"
+	data: "ff2674c8-d483-d2a6-142f-4b8c38fee5b9"
+	format: 83886112
+	value_count: 16352
+}
+attributes: [
+	{
+		__uuid: "44e8e860-4175-9f0d-b397-40ef9eab767b"
+		name: "points"
+		interpolation: 2
+		semantic: 1
+		values: {
+			__uuid: "ae209f35-2c06-0a3b-1c38-22e0bda9fb20"
+			data: "0d1a7396-4748-4c4b-db78-467fbf60c5c3"
+			format: 16910368
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "73920f8a-fb92-8d4c-822e-d965534b67b8"
+		name: "primvars:handForearmArm"
+		interpolation: 2
+		values: {
+			__uuid: "c5baf802-679b-f5ac-70fc-c7042cedb149"
+			data: "73246c03-95ba-2b1d-f1b2-c592df5fcd0e"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "e10ccecd-b131-6de4-497b-9908a0c5282d"
+		name: "primvars:handForearmTwist"
+		interpolation: 2
+		values: {
+			__uuid: "0bc44b40-6484-15dc-03a5-b1036798a312"
+			data: "be687fd4-a769-e045-0b5f-7f8495abf22e"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "d0c97ec8-1f1e-908d-3452-d4802c46749b"
+		name: "primvars:handIndexFingerIntermediateBase"
+		interpolation: 2
+		values: {
+			__uuid: "160a218c-49d3-5e71-639b-1c64d2890f38"
+			data: "f2849ec7-15fb-ea3d-c634-86b8135a9ac1"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "0b72c3d1-0f47-89ac-5b16-3e9d5d5e95fa"
+		name: "primvars:handIndexFingerIntermediateTip"
+		interpolation: 2
+		values: {
+			__uuid: "3aade637-7493-ec8f-f910-c11421475250"
+			data: "3243589b-d272-412f-4c96-5b413504c5e1"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "39d7e4be-9d00-b42a-f4e6-472ed740851c"
+		name: "primvars:handIndexFingerKnuckle"
+		interpolation: 2
+		values: {
+			__uuid: "bc2c8af6-39ad-40ec-23e2-dc00a6bb1c97"
+			data: "aa94bd90-1f0b-e42e-94bb-d3beb73e9c25"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "f6504c40-260a-4fdf-5f10-3098f50a1b38"
+		name: "primvars:handIndexFingerMetacarpal"
+		interpolation: 2
+		values: {
+			__uuid: "a8dacdb1-e607-7b8c-53cb-c35a1b297813"
+			data: "95f469aa-030c-0fe4-c6f7-5324a1caf562"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "55707b77-3157-5348-598a-0435a66851f4"
+		name: "primvars:handIndexFingerTip"
+		interpolation: 2
+		values: {
+			__uuid: "b561d18f-ccc2-90af-a856-f296902b5a4f"
+			data: "0e7c851a-d455-d144-f30c-9fac3dbeac1c"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "7235af73-08d9-0174-7402-e556acdcb96c"
+		name: "primvars:handLeft"
+		interpolation: 2
+		values: {
+			__uuid: "ec311031-7621-f1ba-078e-514f0919262d"
+			data: "78e6a23b-a692-3b22-064c-e4f2c250b038"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "582f0932-8d31-eae0-7f6b-380be85f6edd"
+		name: "primvars:handLittleFingerIntermediateBase"
+		interpolation: 2
+		values: {
+			__uuid: "79e95a5a-a805-7a1d-0da6-0d6936a2dec3"
+			data: "0391aff2-33cc-1637-73f6-eb2d20609353"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "df8ad40f-b170-0d7a-238b-587e6a73e57c"
+		name: "primvars:handLittleFingerIntermediateTip"
+		interpolation: 2
+		values: {
+			__uuid: "baabeb78-d69b-4f63-92dc-181ed77e75e6"
+			data: "cc4ea81d-66f8-f6ed-a413-f8a54b1d5f76"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "d1a44f79-0c28-f7d5-01fc-6e7bd35da612"
+		name: "primvars:handLittleFingerKnuckle"
+		interpolation: 2
+		values: {
+			__uuid: "33dae81e-beca-d4fc-e0e4-49688314597a"
+			data: "b66af6dd-12ff-8a82-2401-63d256bda24c"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "800f756a-1c1a-139e-92f4-45bb4663837b"
+		name: "primvars:handLittleFingerMetacarpal"
+		interpolation: 2
+		values: {
+			__uuid: "df5db153-706c-8e40-4297-40e1f8c1b3c6"
+			data: "a110584a-7337-8c4c-6c38-c718e045cf13"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "e867c415-a963-026c-0984-06c8c185beff"
+		name: "primvars:handLittleFingerTip"
+		interpolation: 2
+		values: {
+			__uuid: "6ec04011-1974-a182-cd7e-523f199881ac"
+			data: "e4747cbc-714b-eccf-03e8-bfa3c7d4393b"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "a0372d72-2250-0b30-bbaa-c5894b8fd092"
+		name: "primvars:handMiddleFingerIntermediateBase"
+		interpolation: 2
+		values: {
+			__uuid: "86943e01-438f-2d30-107e-45fe5076169e"
+			data: "d8fec649-b1ae-57a5-2363-37cdd940666f"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "f67d0018-0e1a-0a0b-7039-b4fa6a7fcb1d"
+		name: "primvars:handMiddleFingerIntermediateTip"
+		interpolation: 2
+		values: {
+			__uuid: "7e3093ad-403d-0a47-8652-674f71cb1857"
+			data: "64eca159-2634-6fe4-1707-6a9671bbb8d3"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "7666fd92-e985-ed24-dc5d-377d0e0e96ba"
+		name: "primvars:handMiddleFingerKnuckle"
+		interpolation: 2
+		values: {
+			__uuid: "d84f286d-890e-0dbf-977f-dfa1aba5bcd6"
+			data: "77b7bf99-654a-facf-2163-ce712979a41d"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "5e8b255b-a40f-87d5-d261-b57d5db0fc8c"
+		name: "primvars:handMiddleFingerMetacarpal"
+		interpolation: 2
+		values: {
+			__uuid: "7e8acf04-1474-9e13-7980-218d68bd8a48"
+			data: "759eb24a-f503-6589-65e5-8646bcc69038"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "54e66caf-1efa-488f-27df-44340c68b991"
+		name: "primvars:handMiddleFingerTip"
+		interpolation: 2
+		values: {
+			__uuid: "67dbad83-e0c9-a420-f3a0-ae70e0534782"
+			data: "f347d7a9-b131-e472-1d51-b6b0cd7163f0"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "b8de4850-7ff7-7031-a6d3-dc3a389c9d04"
+		name: "primvars:handRingFingerIntermediateBase"
+		interpolation: 2
+		values: {
+			__uuid: "4dd39224-ce03-1f4c-7f0d-c6b4717b6aef"
+			data: "18f555bb-ecff-edaa-f215-933a8ad32b11"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "1d08e16a-9792-4f7b-1b4f-d4b306fefb90"
+		name: "primvars:handRingFingerIntermediateTip"
+		interpolation: 2
+		values: {
+			__uuid: "bf462ab8-3a0a-5d38-2c91-df652b068dd0"
+			data: "e2569045-f167-aefd-9e05-fc5ba687c991"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "44e23087-5b7c-f60a-e92b-f2bdaa569633"
+		name: "primvars:handRingFingerKnuckle"
+		interpolation: 2
+		values: {
+			__uuid: "ae57e30c-5be0-e047-0641-3364b305ce74"
+			data: "21abe1dc-e553-e5e0-75f8-ea156b83a044"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "e0dc1662-cee6-9d22-f0d9-db5a895b7664"
+		name: "primvars:handRingFingerMetacarpal"
+		interpolation: 2
+		values: {
+			__uuid: "7654132b-2cc4-c54f-7667-0a79788ce466"
+			data: "49390bab-847d-ea38-572d-3bafabaf7644"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "c1e8c039-4a29-dd90-e1a8-a7446b1db4c4"
+		name: "primvars:handRingFingerTip"
+		interpolation: 2
+		values: {
+			__uuid: "9594204b-2cdf-28ed-5279-1cde4764e0c9"
+			data: "39e7f8c5-bfce-2b97-4173-66696004bb8d"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "e82ca53c-2bf1-0dfe-9e02-6203fa31c795"
+		name: "primvars:handThumbIntermediateBase"
+		interpolation: 2
+		values: {
+			__uuid: "36b00d37-2cf0-12c1-4ffd-3b53cdcd5136"
+			data: "b06b44c1-bea6-3007-f4a2-0ded40778fad"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "fbf1ce62-def4-8d6e-0b88-c538de23e545"
+		name: "primvars:handThumbIntermediateTip"
+		interpolation: 2
+		values: {
+			__uuid: "8bb012ba-fdf9-26fa-05b2-f6a3974bc322"
+			data: "c3bccf65-0cad-72d6-90d0-8bb0fbaeb6df"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "ff3336cb-2648-f06c-1ca8-52d0c9036957"
+		name: "primvars:handThumbKnuckle"
+		interpolation: 2
+		values: {
+			__uuid: "8a7ed801-a0a4-e478-8f29-e1eff668ccca"
+			data: "02a74f3f-499b-0bc1-933a-05fae55026c4"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "5d02c9ff-cf1b-baf4-1f82-9217b8319cf8"
+		name: "primvars:handThumbTip"
+		interpolation: 2
+		values: {
+			__uuid: "10a99937-6465-cb76-f3ac-76573e696d57"
+			data: "85ba53fe-184c-a0c3-a258-1cdc8596018c"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "b59b1460-1c0b-6af7-1017-0540ed500417"
+		name: "primvars:right_forearm_joint"
+		interpolation: 2
+		values: {
+			__uuid: "a3d00281-70b8-6cd2-42ed-0930929ac126"
+			data: "b5779e58-50d9-e697-91b2-08af557abc4f"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "86e6b86b-c021-3ffc-7e78-8a1c06e35a84"
+		name: "primvars:right_hand_joint"
+		interpolation: 2
+		values: {
+			__uuid: "d53248b7-a469-196e-ff79-29b5c561cca2"
+			data: "90e7d7b9-13f2-fc28-32d2-82e2f9c08041"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "6ef06afb-1f2d-dd6f-6cd9-35e11a548323"
+		name: "primvars:right_hand_twist_2_joint"
+		interpolation: 2
+		values: {
+			__uuid: "ef2592cd-4ffc-b2a7-fa74-1f82e30bdd8a"
+			data: "dd5a6ccf-2a2e-16aa-99ba-55cc0fb2888c"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "26877731-40bb-c105-0a3b-ad12fb351af1"
+		name: "primvars:right_handIndex_1_joint"
+		interpolation: 2
+		values: {
+			__uuid: "3a2793f3-909c-809f-1b1e-89c2968f6f6e"
+			data: "610c0905-bc5d-3687-bf0e-2f84a0c3ad2b"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "7b1b6309-5bc3-47b3-d9ae-9593c8e30f29"
+		name: "primvars:right_handIndex_2_joint"
+		interpolation: 2
+		values: {
+			__uuid: "3934f429-23ce-14a8-3ea0-53dd440775fe"
+			data: "ae005eeb-e588-71c4-1373-c8ccdfa25ab2"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "b89b904e-b7ca-981a-179c-06801b758f19"
+		name: "primvars:right_handIndex_3_joint"
+		interpolation: 2
+		values: {
+			__uuid: "4e90f01b-b1e3-7015-e0ab-b7eac5f91d32"
+			data: "e6043a85-5f10-82e5-4155-b50b8b2ed64e"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "19782ec2-bfda-d229-b5b1-e34047921437"
+		name: "primvars:right_handIndexEnd_joint"
+		interpolation: 2
+		values: {
+			__uuid: "71cecccb-e398-ec9b-9946-aa5d6054afe9"
+			data: "8d2686d7-1843-5d26-6a84-4eb06abec401"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "35a0cf48-6da0-b585-3b08-5269cb3474fb"
+		name: "primvars:right_handIndexStart_joint"
+		interpolation: 2
+		values: {
+			__uuid: "a9df4083-be49-db85-d101-cf15db8ab9f8"
+			data: "6429039d-9579-21a3-a993-27928cb0c8c5"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "87b427ed-d054-be46-9e59-ef07f4491f84"
+		name: "primvars:right_handMid_1_joint"
+		interpolation: 2
+		values: {
+			__uuid: "04fcc2b0-9633-0cae-dad4-82aa31701967"
+			data: "d2dd0d62-cc99-99bc-a7a8-ab08a1cf44ce"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "d0913fdb-9ba7-c2d0-4cc2-0dfe4812f02c"
+		name: "primvars:right_handMid_2_joint"
+		interpolation: 2
+		values: {
+			__uuid: "68201a53-473a-fe32-4ae5-dd295f5b08fb"
+			data: "beccc61f-8f75-9188-74e5-12ba2e1f3e4c"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "f99b4191-cdc6-23eb-0876-fb9aa1e466ce"
+		name: "primvars:right_handMid_3_joint"
+		interpolation: 2
+		values: {
+			__uuid: "bc47bba3-eee2-beb9-e384-2acd4f714f0c"
+			data: "f21cd940-b0e8-f81d-dc9c-bc73e99876cb"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "1cdc7453-18eb-a8f9-e857-5526fcfa7d24"
+		name: "primvars:right_handMidEnd_joint"
+		interpolation: 2
+		values: {
+			__uuid: "5c03a5dc-21df-9d31-bd69-a4ddd2931ce7"
+			data: "ab67a26e-bbfc-bb08-e08d-eedd238877ce"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "aaa723b6-ed18-fdb9-cfe3-c0672344fb2a"
+		name: "primvars:right_handMidStart_joint"
+		interpolation: 2
+		values: {
+			__uuid: "8a9d4107-c4f0-c066-4827-e29e3ba11f3f"
+			data: "36571335-ba07-4a71-15e6-46088384d1cc"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "ef5f3b28-f72a-f54e-0192-ae3adaf80e5b"
+		name: "primvars:right_handPinky_1_joint"
+		interpolation: 2
+		values: {
+			__uuid: "27228c8d-230d-c85f-a671-68c7d26c1b7a"
+			data: "975e7135-4992-d59c-270f-5e7df817362e"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "c0589051-19d6-9fed-60dc-3b26a16491e7"
+		name: "primvars:right_handPinky_2_joint"
+		interpolation: 2
+		values: {
+			__uuid: "5956820d-f02d-1915-4e30-df1d5452c3bf"
+			data: "6e4cb0e8-1968-eeaf-0d37-825797bd002a"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "f0ada6d0-8803-0343-6ce8-8071d26c1105"
+		name: "primvars:right_handPinky_3_joint"
+		interpolation: 2
+		values: {
+			__uuid: "66d6cbbb-5ce3-7746-d22e-81eba4d9a346"
+			data: "a23bf6c0-f20a-ebb2-7c96-b849fe956bb9"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "e4868056-c57b-809f-1696-82ec429a2f45"
+		name: "primvars:right_handPinkyEnd_joint"
+		interpolation: 2
+		values: {
+			__uuid: "90fc72a2-f2b9-ca0a-9831-5060087709a7"
+			data: "80158f7c-92e2-59b0-2080-69c59331ee86"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "f42375d7-2f16-6102-59f8-0e1397961cfd"
+		name: "primvars:right_handPinkyStart_joint"
+		interpolation: 2
+		values: {
+			__uuid: "c2ec0eac-2682-9a3d-341b-e385c89f71d2"
+			data: "4521967a-07fc-032e-0762-1e558b191536"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "a199b1d8-70eb-1726-e530-733fff2ca678"
+		name: "primvars:right_handRing_1_joint"
+		interpolation: 2
+		values: {
+			__uuid: "cad08fb2-8730-1ec9-0935-b08938f208a6"
+			data: "aaa71a8c-1efa-c945-3a6d-72b51e607571"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "8665028d-0cca-8e5f-5b78-a156e4e492ba"
+		name: "primvars:right_handRing_2_joint"
+		interpolation: 2
+		values: {
+			__uuid: "7e4cfa72-22ec-d753-fdeb-f6f1248362fc"
+			data: "f1cfe8b4-9540-1a6b-9bac-ef157a8a8e4f"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "d7c921e0-84a0-67b5-a60b-ce82e479c5f1"
+		name: "primvars:right_handRing_3_joint"
+		interpolation: 2
+		values: {
+			__uuid: "04fd40b0-e33c-5ec6-e060-3ca68bd4ef15"
+			data: "b5e0eaa8-82bf-3d18-53ee-6aafb069b22b"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "55c3e447-304a-cb8b-72d4-eb1ebfafc72a"
+		name: "primvars:right_handRingEnd_joint"
+		interpolation: 2
+		values: {
+			__uuid: "1e667f61-be7c-544b-8231-ef3e9e9cb664"
+			data: "f1fcb731-49ac-65c5-7f86-230785af3d11"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "da007e83-fbcd-728b-470f-b1de175fe76f"
+		name: "primvars:right_handRingStart_joint"
+		interpolation: 2
+		values: {
+			__uuid: "833c4b46-52b9-41e4-2c07-6fda6309914d"
+			data: "b1813bc9-bbc9-d24c-85ed-6e866306f69a"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "3723985d-168f-b060-a9da-d6ededa77d26"
+		name: "primvars:right_handThumb_1_joint"
+		interpolation: 2
+		values: {
+			__uuid: "e6fa2faf-75ec-4720-6457-4020ad3e0e13"
+			data: "be4fc11d-57df-bc5b-559a-b3f615e46b99"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "6fd6f622-1da1-b198-5475-9b4c56309320"
+		name: "primvars:right_handThumb_2_joint"
+		interpolation: 2
+		values: {
+			__uuid: "ddbdcb9f-0102-1d80-10ea-21b69f6ca532"
+			data: "4f48c34f-12c0-c7e9-acec-9983dd4061ab"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "17688d35-7239-4c48-23af-dcdc1472b8dd"
+		name: "primvars:right_handThumbEnd_joint"
+		interpolation: 2
+		values: {
+			__uuid: "28df89fe-c325-f91f-cf95-ee6535b25e35"
+			data: "a2d7571d-1dfd-8941-c476-df90295bbb3f"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "2960e38c-b9f3-a8cb-9d60-9610f5df7869"
+		name: "primvars:right_handThumbStart_joint"
+		interpolation: 2
+		values: {
+			__uuid: "91aac467-1865-53fd-c9cb-f174a83f1747"
+			data: "822106e4-1214-ba39-62c7-d58f54e2f748"
+			format: 16777248
+			value_count: 4090
+		}
+	}
+	{
+		__uuid: "b938da21-7d7a-9e98-1e77-06902ecf9dd4"
+		name: "primvars:st"
+		interpolation: 3
+		semantic: 5
+		values: {
+			__uuid: "61944d41-8808-e0e6-dc27-980f2732cdcb"
+			data: "1e5fa7e1-b462-16cc-7b5f-801cac878b46"
+			format: 16779296
+			value_count: 4443
+		}
+		indices: {
+			__uuid: "14ca42bb-8cd1-9b16-a167-1732702ce383"
+			data: "6e8396d4-5cf3-0779-efc2-3ec34b4d4f73"
+			format: 83886112
+			value_count: 16352
+		}
+	}
+	{
+		__uuid: "122aeb2b-5870-d1d0-d678-3a658521773a"
+		name: "normals"
+		interpolation: 3
+		semantic: 2
+		values: {
+			__uuid: "77ec8daf-3cf2-c2e6-be07-a949b16f1317"
+			data: "91e5d614-1cbd-afb4-960f-e080aff92c35"
+			format: 16910368
+			value_count: 16352
+		}
+	}
+]
+skinning_data: {
+	__uuid: "f1c15623-86ba-384a-3b4f-e6624b5d0b99"
+	vertex_count: 4090
+	influence_count_per_vertex: 26
+	indices: "18ce0a35-c768-e964-80ef-01d27a86c70d"
+	weights: "00623221-9022-6c17-45ae-b584f0e82233"
+	bind_transform: {
+		__uuid: "e6f25338-05cc-4ea0-9cc3-685c0f2ae3aa"
+		xx: 124.19131469726563
+		yy: 2.757601140707458e-14
+		yz: -124.19131469726563
+		zy: 124.19131469726563
+		zz: 2.757601140707458e-14
+		wx: 9.8280220031738281
+		wy: 1.4383062124252319
+		wz: 7.4151492118835449
+	}
+}
+__asset_uuid: "d3494534-0a58-a15a-cfdf-fec8983fef50"
