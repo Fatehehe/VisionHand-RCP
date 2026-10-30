@@ -11319,8 +11319,6 @@
 				type_hash: "f481097232786b73"
 			}
 		]
-		default: {
-		}
 	}
 	{
 		name: "tm_graph_node"

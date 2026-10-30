@@ -131,6 +131,9 @@ shader_graph: {
 				}
 			}
 		]
+		interface: {
+			__uuid: "7e3b025d-32a2-9ce5-5efb-1e9caba48d92"
+		}
 	}
 }
 descriptor: {
